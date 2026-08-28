@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Angry Birds Chrome | yell0wsuit</title>
+        <meta name="Title" content="Angry Birds Chrome | yell0wsuit" />
+        <meta name="description" content="Play Angry Birds online in HD in your browser" />
+        <meta
+            name="keywords"
+            content="angry birds, free angry birds, online game, play online, angry birds app, chrome, google chrome, web browser, HD, arcade game, online, play angry birds online, web, application, game, iphone, android, ipad, slingshot, catapult, explosions, golden egg, levels, pigs, birds, stars, high scores, chrome os, chrome web store, angry birds rovio, play angry birds on computer, apps for chrome, play angry birds free, yell0wsuit" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" />
+        <link rel="stylesheet" href="css/angry_birds_chrome.css" type="text/css" />
+        <link
+            rel="chrome-webstore-item"
+            href="https://chrome.google.com/webstore/detail/aknpkdffaafgjchaibgeefbgmgeghloj" />
+
+        <script type="text/javascript" src="fowl/fowl.nocache.js"></script>
+
+        <script type="text/javascript">
+            google.load("payments", "1.0", {
+                packages: ["production_config"],
+            });
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(["_trackPageview"]);
+        </script>
+
+        <script>
+            function externalLink(type) {
+                _gaq.push(["_trackEvent", "Promo", "Promotional Link: " + type]);
+            }
+        </script>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SX3SJWCLEY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-SX3SJWCLEY");
+        </script>
+        <script
+            async=""
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3324915803425189"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            function haveAudioSupport() {
+                try {
+                    if (new AudioContext()) {
+                        return true;
+                    }
+                } catch (ignore) {}
+
+                try {
+                    if (new webkitAudioContext()) {
+                        return true;
+                    }
+                } catch (ignore) {}
+            }
+        </script>
+
+        <table class="content-table">
+            <tr>
+                <td>
+                    <div class="gamecont" id="content">
+                        <div id="gameDiv" style="display: inline-block">
+                            <div id="playn-root">
+                                <div id="loading">
+                                    <img alt="Loading..." src="images/loading_image_bird.png" />
+                                </div>
+                            </div>
+                            <div id="rovionews"></div>
+                            <div id="videochapter"></div>
+                            <div id="ingameframecontainer"></div>
+                            <div id="cornerframecontainer1"></div>
+                        </div>
+                        <div class="buttons">
+                            <div class="buttoncontainer">
+                                <div id="version-buttons"></div>
+                            </div>
+
+                            <div id="tooltip"></div>
+                            <script type="text/javascript">
+                                tooltip = document.getElementById("tooltip");
+                                resetTooltip = function () {
+                                    tooltip.innerHTML = "";
+                                };
+                            </script>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const body = document.body;
+
+                body.addEventListener("mousedown", () => {
+                    body.classList.add("clicking");
+                });
+
+                body.addEventListener("mouseup", () => {
+                    body.classList.remove("clicking");
+                });
+
+                // Optional: handle mouseout to ensure cursor reverts if mouse leaves the body while clicked
+                body.addEventListener("mouseout", () => {
+                    body.classList.remove("clicking");
+                });
+            });
+        </script>
+
+        <noscript>
+            <div class="info-noscript">
+                Your web browser must have JavaScript enabled in order for this application to display correctly.
+            </div>
+        </noscript>
+
+        <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+        <script>
+            const notyf = new Notyf({
+                types: [
+                    {
+                        type: "info",
+                        duration: 0,
+                        background: "#2563eb", // Set the background color for progress toast
+                    },
+                ],
+            });
+        </script>
+        <script src="register-sw.js"></script>
+    </body>
+</html>

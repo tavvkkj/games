@@ -1,0 +1,255 @@
+{
+  "debug": false,
+  "showArkadiumLogo": false,
+  "numRows": 15,
+  "numCols": 11,
+  "numMovesAwardedPerLevel": 0,
+  "numMovesAwardedForAd": 100,
+  "milestones": [
+      9,
+      19,
+      29
+  ],
+  "moveCap": 250,
+  "moveCapBonus": 300000,
+  "massiveScoreThreshold": 350000,
+  "extraMovesFlyTime": 2,
+  "missionAwardDuration": 1.2,
+  "extraMovesForUnusedTilesInCombo": [
+      { "numTiles": 1, "numMoves": 1 },
+      { "numTiles": 2, "numMoves": 2 },
+      { "numTiles": 3, "numMoves": 3 },
+      { "numTiles": 4, "numMoves": 4 },
+      { "numTiles": 5, "numMoves": 5 },
+      { "numTiles": 6, "numMoves": 6 },
+      { "numTiles": 7, "numMoves": 7 },
+      { "numTiles": 8, "numMoves": 8 },
+      { "numTiles": 9, "numMoves": 9 },
+      { "numTiles": 10, "numMoves": 10 }
+  ],
+  "_extraMovesForLeftoverSpecialTiles": {
+      "rocket": 1,
+      "bomb": 2,
+      "colorClear": 3
+  },
+  "lowMovesPulseTargets": [
+      20,
+      15,
+      10,
+      5,
+      4,
+      3,
+      2,
+      1
+  ],
+  "pointsPerGameEndMove": 1000000,
+  "pointsPerGameEndFireball": 10000000,
+  "groupScoringMultipliers": [
+      { "minNumGems": 1, "multiplier": 1 },
+      { "minNumGems": 3, "multiplier": 10 },
+      { "minNumGems": 6, "multiplier": 50 },
+      { "minNumGems": 12, "multiplier": 150 },
+      { "minNumGems": 24, "multiplier": 250 }
+  ],
+  "_specialMultipliers": [
+      { "special": "rocket", "multiplier": 50 },
+      { "special": "bomb", "multiplier": 100 },
+      { "special": "colorClear", "multiplier": 150 }
+  ],
+  "levelStartOptions": [
+      {
+          "level": 0,
+          "moves": 100,
+          "fireballCount": 0,
+          "fireballMax": 2
+      },
+      {
+          "level": 10,
+          "moves": 100,
+          "fireballCount": 1,
+          "fireballMax": 4
+      },
+      {
+          "level": 20,
+          "moves": 150,
+          "fireballCount": 2,
+          "fireballMax": 6
+      },
+      {
+          "level": 30,
+          "moves": 200,
+          "fireballCount": 2,
+          "fireballMax": 8
+      }
+  ],
+  "fueItems": [
+      "TapGems",
+      "ClearBlockerPieces",
+      "LargeMatch",
+      "EarnMoreMoves",
+      "Mission",
+      "Fireballs",
+      "PowerupTouching",
+      "PowerupsLeft",
+      "TwentyFiveMoves",
+      "GoalReminder",
+      "FireballsReminder1",
+      "FireballsReminder2",
+      "FireballsReminder3",
+      "FireballReminderLowMoves",
+      "FireballReminder",
+      "BonusFireballs"
+  ],
+  "challengeConfig": {
+      "limitChallengesForLevel": [
+          { "level": 0, "numChallenges": 0 },
+          { "level": 1, "numChallenges": 1 },
+          { "level": 2, "numChallenges": 1 },
+          { "level": 3, "numChallenges": 1 },
+          { "level": 4, "numChallenges": 1 }
+      ],
+      "challenges": [
+          { "requirement": "gems", "numRequired": 35, "reward": "moves", "numRewarded": 20 },
+          { "requirement": "gems", "numRequired": 40, "reward": "moves", "numRewarded": 20 },
+          { "requirement": "gems", "numRequired": 50, "reward": "moves", "numRewarded": 20 },
+          { "requirement": "powerups", "numRequired": 10, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 50, "reward": "moves", "numRewarded": 20 },
+          { "requirement": "powerups", "numRequired": 10, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 75, "reward": "moves", "numRewarded": 30 },
+          { "requirement": "powerups", "numRequired": 12, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 75, "reward": "moves", "numRewarded": 30 },
+          { "requirement": "powerups", "numRequired": 12, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 120, "reward": "moves", "numRewarded": 40 },
+          { "requirement": "powerups", "numRequired": 15, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 140, "reward": "moves", "numRewarded": 45 },
+          { "requirement": "powerups", "numRequired": 20, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 160, "reward": "moves", "numRewarded": 50 },
+          { "requirement": "powerups", "numRequired": 25, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 180, "reward": "moves", "numRewarded": 55 },
+          { "requirement": "powerups", "numRequired": 30, "reward": "fireballs", "numRewarded": 2 },
+          { "requirement": "gems", "numRequired": 180, "reward": "moves", "numRewarded": 55 },
+          { "requirement": "powerups", "numRequired": 30, "reward": "fireballs", "numRewarded": 2 },
+          { "requirement": "gems", "numRequired": 200, "reward": "moves", "numRewarded": 60 },
+          { "requirement": "powerups", "numRequired": 30, "reward": "fireballs", "numRewarded": 2 }
+      ],
+      "checkpointChallenges": [
+          { "requirement": "powerups", "numRequired": 20, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 75, "reward": "moves", "numRewarded": 30 },
+          { "requirement": "powerups", "numRequired": 25, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 120, "reward": "moves", "numRewarded": 40 },
+          { "requirement": "powerups", "numRequired": 25, "reward": "fireballs", "numRewarded": 1 },
+          { "requirement": "gems", "numRequired": 140, "reward": "moves", "numRewarded": 45 },
+          { "requirement": "powerups", "numRequired": 30, "reward": "fireballs", "numRewarded": 2 },
+          { "requirement": "gems", "numRequired": 160, "reward": "moves", "numRewarded": 50 },
+          { "requirement": "powerups", "numRequired": 30, "reward": "fireballs", "numRewarded": 2 },
+          { "requirement": "gems", "numRequired": 180, "reward": "moves", "numRewarded": 55 }
+      ],
+      "randomFinalChallenges": [
+          { "requirement": "gems", "numRequired": 200, "reward": "moves", "numRewarded": 60 },
+          { "requirement": "powerups", "numRequired": 40, "reward": "fireballs", "numRewarded": 2 },
+          { "requirement": "gems", "numRequired": 220, "reward": "moves", "numRewarded": 65 },
+          { "requirement": "powerups", "numRequired": 40, "reward": "fireballs", "numRewarded": 2 },
+          { "requirement": "gems", "numRequired": 230, "reward": "moves", "numRewarded": 70 },
+          { "requirement": "powerups", "numRequired": 60, "reward": "fireballs", "numRewarded": 3 }
+      ],
+      "noMovesRewardThreshold": 225
+  },
+  "_UNUSED_challengeConfig": {
+      "numChallengesAllowedOnLevel0": 2,
+      "numChallengesAllowedOnLevel1": 2,
+      "rewardMode": "oneFireballOneMoves",
+      "requirementMode": "noRestriction",
+      "pairingMode": "gemsGrantFireballsSpecialsGrantMoves",
+      "requirementGemStart": 25,
+      "requirementGemInc": 25,
+      "requirementGemMax": 150,
+      "requirementSpecialStart": 15,
+      "requirementSpecialInc": 15,
+      "requirementSpecialMax": 100,
+      "requirementScalePerType": true,
+      "movesRewarded": 10,
+      "fireballsRewarded": 1
+  },
+  "_UNUSED_challengeConfigOptionsExample": {
+      "rewardMode": "oneFireballOneMoves",
+      "rewardMode2": "noRestriction",
+      "rewardFireballWeight": 1,
+      "rewardMovesWeight": 1,
+      "requirementMode": "oneGemGoalOneSpecialGoal",
+      "requirementMode2": "noRestriction",
+      "requirementGemWeight": 1,
+      "requirementSpecialWeight": 1,
+      "pairingMode": "gemsGrantFireballsSpecialsGrantMoves",
+      "pairingMode2": "specialsGrantFireballsPowersGrantMoves",
+      "pairingMode3": "noRestriction"
+  },
+  "_specialTileTiers": [
+      { "numTiles": 7,  "special": "rocket",     "tier": 0, "size": 6, "moves": 0 },
+      { "numTiles": 11, "special": "bomb",       "tier": 0, "size": 2, "moves": 0 },
+      { "numTiles": 15, "special": "colorClear", "tier": 1, "size": 8, "moves": 1, "additionalMovesPerExtraTile": 1 }
+  ],
+  "disableLargeMatchExtraMovesAfterMoveCap": true,
+  "fireballGemPoints": 1000,
+  "_fireballObstaclePoints": [
+      { "obstacleType": "log", "points": 5000 },
+      { "obstacleType": "leaves", "points": 7500 },
+      { "obstacleType": "stone", "points": 10000 },
+      { "obstacleType": "bubble", "points": 20000 }
+  ],
+  "_bonusFireballObstaclePoints": [
+      { "obstacleType": "log", "points": 500000 },
+      { "obstacleType": "leaves", "points": 750000 },
+      { "obstacleType": "stone", "points": 1000000 },
+      { "obstacleType": "bubble", "points": 1500000 }
+  ],
+  "bonusFireballGemMultipliers": [
+      { "numGems": 15, "multiplier": 1 },
+      { "numGems": 20, "multiplier": 2 },
+      { "numGems": 25, "multiplier": 3 },
+      { "numGems": 30, "multiplier": 4 },
+      { "numGems": 40, "multiplier": 6 },
+      { "numGems": 50, "multiplier": 8 }
+  ],
+  "_comboTiers": [
+      { 
+          "combo": "crossClear",
+          "size": 20
+      },
+      { 
+          "combo": "bigBomb", 
+          "size": 4,  
+          "shape": "square"
+      },
+      { 
+          "combo": "crossClear3x3", 
+          "rocketSize": 20, 
+          "bombSize": 2, 
+          "thickness": 1,
+          "extraTilesThickness": 3,
+          "shape": "square"
+      },
+      { 
+          "combo": "convertToRockets", 
+          "size": 8, 
+          "extraTilesSize": 25, 
+          "shape": "circle"
+      },
+      { 
+          "combo": "convertToBombs", 
+          "size": 8, 
+          "extraTilesSize": 25, 
+          "shape": "circle"
+      },
+      { 
+          "combo": "convertToBombsAndRockets", 
+          "size": 25, 
+          "shape": "circle"
+      },
+      { 
+          "combo": "fullBoardClear", 
+          "size": 8, 
+          "extraTilesSize": 25, 
+          "shape": "circle"
+      }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "key": "music",
+    "volume": 0.3
+  },
+  {
+    "key": "button_click",
+    "volume": 1
+  },
+  {
+    "key": "button_rollover",
+    "volume": 1
+  }
+]

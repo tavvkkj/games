@@ -1,0 +1,1 @@
+"use strict";var _p=window;var java=_p.java=_p.java||{};var lang=_p.java.lang=_p.java.lang||{};var Runtime=_p.java.lang.Runtime=gloft.Class.extend({ctor:function(){},freeMemory:function(){}});Runtime.single_Runtime=new Runtime();Runtime.getRuntime=function(){return Runtime.single_Runtime};

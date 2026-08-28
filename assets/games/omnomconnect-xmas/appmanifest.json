@@ -1,0 +1,15 @@
+{
+	"name": "Om Nom Connect Christmas",
+	"short_name": "Om Nom Connect Christmas",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+        {
+            "src": "AppImages/512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

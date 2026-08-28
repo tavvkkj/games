@@ -1,0 +1,1 @@
+"use strict";var _p=window;var java=_p.java=_p.java||{};var util=_p.java.util=_p.java.util||{};var Hashtable=_p.java.util.Hashtable=gloft.Class.extend({m_hash:null,ctor:function(){this.m_hash={}},get:function(a){return this.m_hash[a]},put:function(a,b){this.m_hash[a]=b},remove:function(a){var b=this.m_hash[a];delete this.m_hash[a];return b}});

@@ -1,0 +1,1378 @@
+{
+"skeleton": { "hash": "SOMc0CEAb2BtKwDUkFweaO/TxuQ", "spine": "3.6.53", "width": 214, "height": 1773.52, "images": "./images/" },
+"bones": [
+	{ "name": "hit_animation" },
+	{ "name": "special_weapon_03", "parent": "hit_animation" },
+	{ "name": "CENTER", "parent": "special_weapon_03" },
+	{ "name": "CENTER2", "parent": "special_weapon_03" },
+	{ "name": "TILE_01", "parent": "special_weapon_03", "x": -70, "y": 70 },
+	{ "name": "TILE_02", "parent": "special_weapon_03", "y": 70 },
+	{ "name": "TILE_03", "parent": "special_weapon_03", "x": 70, "y": 70 },
+	{ "name": "TILE_04", "parent": "special_weapon_03", "x": 70 },
+	{ "name": "TILE_05", "parent": "special_weapon_03", "x": 70, "y": -70 },
+	{ "name": "TILE_06", "parent": "special_weapon_03", "y": -70 },
+	{ "name": "TILE_07", "parent": "special_weapon_03", "x": -70, "y": -70 },
+	{ "name": "TILE_08", "parent": "special_weapon_03", "x": -70 },
+	{ "name": "TILE_center", "parent": "special_weapon_03" },
+	{ "name": "special_weapon", "parent": "hit_animation" },
+	{ "name": "bomb", "parent": "special_weapon" },
+	{ "name": "bone", "parent": "hit_animation" },
+	{ "name": "explosion", "parent": "bone", "x": -2.5, "y": -3 },
+	{ "name": "explotion", "parent": "special_weapon", "scaleX": 0.61, "scaleY": 0.61 },
+	{ "name": "hit_squere", "parent": "hit_animation" },
+	{ "name": "light", "parent": "special_weapon" },
+	{ "name": "projectile", "parent": "bone", "length": 321.82, "rotation": 90, "x": -4.65, "y": 1028.65 },
+	{ "name": "shockwave_ripple", "parent": "bone", "x": -1.65, "y": -6.05 },
+	{ "name": "special_weapon_04", "parent": "hit_animation" }
+],
+"slots": [
+	{ "name": "shockwave_ripple", "bone": "shockwave_ripple", "attachment": "shockwave_ripple" },
+	{ "name": "explosion01", "bone": "explosion", "attachment": "explosion01" },
+	{ "name": "explosion02", "bone": "explosion" },
+	{ "name": "explosion03", "bone": "explosion" },
+	{ "name": "explosion04", "bone": "explosion" },
+	{ "name": "explosion05", "bone": "explosion" },
+	{ "name": "explosion06", "bone": "explosion" },
+	{ "name": "explosion07", "bone": "explosion" },
+	{ "name": "explosion08", "bone": "explosion" },
+	{ "name": "explosion09", "bone": "explosion" },
+	{ "name": "explosion10", "bone": "explosion" },
+	{ "name": "explosion11", "bone": "explosion" },
+	{ "name": "explosion12", "bone": "explosion" },
+	{ "name": "explosion13", "bone": "explosion" },
+	{ "name": "explosion14", "bone": "explosion" },
+	{ "name": "explosion15", "bone": "explosion" },
+	{ "name": "explosion16", "bone": "explosion" },
+	{ "name": "explosion17", "bone": "explosion" },
+	{ "name": "explosion18", "bone": "explosion" },
+	{ "name": "explosion19", "bone": "explosion" },
+	{ "name": "explosion20", "bone": "explosion" },
+	{ "name": "explosion21", "bone": "explosion" },
+	{ "name": "projectile", "bone": "projectile", "attachment": "projectile" },
+	{ "name": "JET_PLANE_0003_jet_bomb", "bone": "bomb", "attachment": "JET_PLANE_0003_jet_bomb" },
+	{ "name": "JET_PLANE_0000_Jet_light", "bone": "light", "attachment": "JET_PLANE_0000_Jet_light", "blend": "additive" },
+	{ "name": "s_areaeffect_playerfield", "bone": "TILE_center", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield2", "bone": "TILE_01", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield3", "bone": "TILE_02", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield4", "bone": "TILE_03", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield5", "bone": "TILE_04", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield6", "bone": "TILE_05", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield7", "bone": "TILE_06", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield8", "bone": "TILE_07", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_areaeffect_playerfield9", "bone": "TILE_08", "attachment": "s_areaeffect_playerfield" },
+	{ "name": "s_pulse_playerfield", "bone": "CENTER", "attachment": "s_pulse_playerfield" },
+	{ "name": "s_pulse_playerfield2", "bone": "CENTER2", "attachment": "s_pulse_playerfield" },
+	{ "name": "explosion1", "bone": "explotion", "attachment": "explosion01" },
+	{ "name": "flash_white", "bone": "special_weapon_04", "attachment": "flash_light", "blend": "additive" },
+	{ "name": "flash_white2", "bone": "special_weapon_04", "attachment": "flash_light", "blend": "additive" },
+	{ "name": "s_opp_hit_2", "bone": "hit_squere", "attachment": "s_opp_hit_2" }
+],
+"skins": {
+	"default": {
+		"JET_PLANE_0000_Jet_light": {
+			"JET_PLANE_0000_Jet_light": { "width": 75, "height": 75 }
+		},
+		"JET_PLANE_0003_jet_bomb": {
+			"JET_PLANE_0003_jet_bomb": { "width": 15, "height": 32 }
+		},
+		"explosion01": {
+			"explosion01": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion02": {
+			"explosion02": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion03": {
+			"explosion03": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion04": {
+			"explosion04": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion05": {
+			"explosion05": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion06": {
+			"explosion06": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion07": {
+			"explosion07": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion08": {
+			"explosion08": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion09": {
+			"explosion09": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion1": {
+			"explosion01": { "width": 181, "height": 338 },
+			"explosion02": { "width": 181, "height": 338 },
+			"explosion03": { "width": 181, "height": 338 },
+			"explosion04": { "width": 181, "height": 338 },
+			"explosion05": { "width": 181, "height": 338 },
+			"explosion06": { "width": 181, "height": 338 },
+			"explosion07": { "width": 181, "height": 338 },
+			"explosion08": { "width": 181, "height": 338 },
+			"explosion09": { "width": 181, "height": 338 },
+			"explosion10": { "width": 181, "height": 338 },
+			"explosion11": { "width": 181, "height": 338 },
+			"explosion12": { "width": 181, "height": 338 },
+			"explosion13": { "width": 181, "height": 338 },
+			"explosion14": { "width": 181, "height": 338 },
+			"explosion15": { "width": 181, "height": 338 },
+			"explosion16": { "width": 181, "height": 338 },
+			"explosion17": { "width": 181, "height": 338 },
+			"explosion18": { "width": 181, "height": 338 },
+			"explosion19": { "width": 181, "height": 338 },
+			"explosion20": { "width": 181, "height": 338 },
+			"explosion21": { "width": 181, "height": 338 }
+		},
+		"explosion10": {
+			"explosion10": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion11": {
+			"explosion11": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion12": {
+			"explosion12": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion13": {
+			"explosion13": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion14": {
+			"explosion14": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion15": {
+			"explosion15": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion16": {
+			"explosion16": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion17": {
+			"explosion17": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion18": {
+			"explosion18": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion19": {
+			"explosion19": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion20": {
+			"explosion20": { "y": 144, "width": 181, "height": 338 }
+		},
+		"explosion21": {
+			"explosion21": { "y": 144, "width": 181, "height": 338 }
+		},
+		"flash_white": {
+			"flash_light": { "x": 1.06, "y": -1.06, "width": 75, "height": 75 }
+		},
+		"flash_white2": {
+			"flash_light": { "x": 3.18, "y": 1.06, "width": 75, "height": 75 }
+		},
+		"projectile": {
+			"projectile": { "x": 295.37, "rotation": -90, "width": 22, "height": 685 }
+		},
+		"s_areaeffect_playerfield": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield2": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield3": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield4": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield5": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield6": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield7": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield8": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_areaeffect_playerfield9": {
+			"s_areaeffect_playerfield": { "width": 74, "height": 74 }
+		},
+		"s_opp_hit_2": {
+			"s_opp_hit_2": { "width": 74, "height": 74 }
+		},
+		"s_pulse_playerfield": {
+			"s_pulse_playerfield": { "width": 214, "height": 214 }
+		},
+		"s_pulse_playerfield2": {
+			"s_pulse_playerfield": { "width": 214, "height": 214 }
+		},
+		"shockwave_ripple": {
+			"shockwave_ripple": { "y": 0.16, "width": 180, "height": 121 }
+		}
+	}
+},
+"events": {
+	"hit_text": {},
+	"on_land": {}
+},
+"animations": {
+	"land": {
+		"slots": {
+			"JET_PLANE_0000_Jet_light": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"JET_PLANE_0003_jet_bomb": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"explosion01": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "explosion01" },
+					{ "time": 0.3667, "name": null }
+				]
+			},
+			"explosion1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"explosion02": {
+				"attachment": [
+					{ "time": 0.3667, "name": "explosion02" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"explosion03": {
+				"attachment": [
+					{ "time": 0.4667, "name": "explosion03" },
+					{ "time": 0.5, "name": null }
+				]
+			},
+			"explosion04": {
+				"attachment": [
+					{ "time": 0.5, "name": "explosion04" },
+					{ "time": 0.5667, "name": null }
+				]
+			},
+			"explosion05": {
+				"attachment": [
+					{ "time": 0.5667, "name": "explosion05" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"explosion06": {
+				"attachment": [
+					{ "time": 0.6, "name": "explosion06" },
+					{ "time": 0.6333, "name": null }
+				]
+			},
+			"explosion07": {
+				"attachment": [
+					{ "time": 0.6333, "name": "explosion07" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"explosion08": {
+				"attachment": [
+					{ "time": 0.7333, "name": "explosion08" },
+					{ "time": 0.7667, "name": null }
+				]
+			},
+			"explosion09": {
+				"attachment": [
+					{ "time": 0.7667, "name": "explosion09" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"explosion10": {
+				"attachment": [
+					{ "time": 0.8, "name": "explosion10" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"explosion11": {
+				"attachment": [
+					{ "time": 0.8667, "name": "explosion11" },
+					{ "time": 0.9, "name": null }
+				]
+			},
+			"explosion12": {
+				"attachment": [
+					{ "time": 0.9, "name": "explosion12" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"explosion13": {
+				"attachment": [
+					{ "time": 1, "name": "explosion13" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"explosion14": {
+				"attachment": [
+					{ "time": 1.0333, "name": "explosion14" },
+					{ "time": 1.0667, "name": null }
+				]
+			},
+			"explosion15": {
+				"attachment": [
+					{ "time": 1.0667, "name": "explosion15" },
+					{ "time": 1.1333, "name": null }
+				]
+			},
+			"explosion16": {
+				"attachment": [
+					{ "time": 1.1333, "name": "explosion16" },
+					{ "time": 1.1667, "name": null }
+				]
+			},
+			"explosion17": {
+				"attachment": [
+					{ "time": 1.1667, "name": "explosion17" },
+					{ "time": 1.2333, "name": null }
+				]
+			},
+			"explosion18": {
+				"attachment": [
+					{ "time": 1.2333, "name": "explosion18" },
+					{ "time": 1.3, "name": null }
+				]
+			},
+			"explosion19": {
+				"attachment": [
+					{ "time": 1.3, "name": "explosion19" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"explosion20": {
+				"attachment": [
+					{ "time": 1.3333, "name": "explosion20" },
+					{ "time": 1.4, "name": null }
+				]
+			},
+			"explosion21": {
+				"attachment": [
+					{ "time": 1.4, "name": "explosion21" },
+					{ "time": 1.4333, "name": null }
+				]
+			},
+			"flash_white": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_opp_hit_2": {
+				"color": [
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"s_pulse_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_pulse_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shockwave_ripple": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "shockwave_ripple" }
+				]
+			}
+		},
+		"bones": {
+			"shockwave_ripple": {
+				"scale": [
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.7, "x": 2, "y": 2 }
+				]
+			},
+			"projectile": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -1018.58 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 0, "y": 1 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 0.613, "y": 0.613 }
+				]
+			},
+			"hit_squere": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4667, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.3, "y": 1.3 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "on_land" },
+			{ "time": 0.7, "name": "hit_text" }
+		]
+	},
+	"special_weapon_01": {
+		"slots": {
+			"JET_PLANE_0000_Jet_light": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"JET_PLANE_0003_jet_bomb": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"explosion1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "explosion01" },
+					{ "time": 0.3667, "name": "explosion02" },
+					{ "time": 0.4, "name": "explosion03" },
+					{ "time": 0.4333, "name": "explosion04" },
+					{ "time": 0.4667, "name": "explosion05" },
+					{ "time": 0.5, "name": "explosion06" },
+					{ "time": 0.5333, "name": "explosion07" },
+					{ "time": 0.5667, "name": "explosion08" },
+					{ "time": 0.6, "name": "explosion09" },
+					{ "time": 0.6333, "name": "explosion10" },
+					{ "time": 0.6667, "name": "explosion11" },
+					{ "time": 0.7, "name": "explosion12" },
+					{ "time": 0.7333, "name": "explosion13" },
+					{ "time": 0.7667, "name": "explosion14" },
+					{ "time": 0.8, "name": "explosion15" },
+					{ "time": 0.8333, "name": "explosion16" },
+					{ "time": 0.8667, "name": "explosion17" },
+					{ "time": 0.9, "name": "explosion18" },
+					{ "time": 0.9333, "name": "explosion19" },
+					{ "time": 0.9667, "name": "explosion20" },
+					{ "time": 1, "name": "explosion21" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"explosion01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"projectile": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_opp_hit_2": {
+				"color": [
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"s_pulse_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_pulse_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shockwave_ripple": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"light": {
+				"translate": [
+					{ "time": 0.3333, "x": 4.03, "y": 8.06 }
+				]
+			},
+			"bomb": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 138.33 },
+					{ "time": 0.3, "x": 0, "y": 17.46 }
+				]
+			},
+			"explotion": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 84.61 }
+				]
+			},
+			"hit_squere": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4667, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.3, "y": 1.3 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "on_land" },
+			{ "time": 0.7, "name": "hit_text" }
+		]
+	},
+	"special_weapon_02": {
+		"slots": {
+			"JET_PLANE_0000_Jet_light": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"JET_PLANE_0003_jet_bomb": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"explosion1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "explosion01" },
+					{ "time": 0.0667, "name": "explosion02" },
+					{ "time": 0.1, "name": "explosion03" },
+					{ "time": 0.1333, "name": "explosion04" },
+					{ "time": 0.1667, "name": "explosion05" },
+					{ "time": 0.2, "name": "explosion06" },
+					{ "time": 0.2333, "name": "explosion07" },
+					{ "time": 0.2667, "name": "explosion08" },
+					{ "time": 0.3, "name": "explosion09" },
+					{ "time": 0.3333, "name": "explosion10" },
+					{ "time": 0.3667, "name": "explosion11" },
+					{ "time": 0.4, "name": "explosion12" },
+					{ "time": 0.4333, "name": "explosion13" },
+					{ "time": 0.4667, "name": "explosion14" },
+					{ "time": 0.5, "name": "explosion15" },
+					{ "time": 0.5333, "name": "explosion16" },
+					{ "time": 0.5667, "name": "explosion17" },
+					{ "time": 0.6, "name": "explosion18" },
+					{ "time": 0.6333, "name": "explosion19" },
+					{ "time": 0.6667, "name": "explosion20" },
+					{ "time": 0.7, "name": "explosion21" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"explosion01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"projectile": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_opp_hit_2": {
+				"color": [
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"s_pulse_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_pulse_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shockwave_ripple": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"light": {
+				"translate": [
+					{ "time": 0.0333, "x": 4.03, "y": 8.06 }
+				]
+			},
+			"explotion": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 84.61 }
+				]
+			},
+			"hit_squere": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4667, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.3, "y": 1.3 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "on_land" },
+			{ "time": 0.7, "name": "hit_text" }
+		]
+	},
+	"special_weapon_03": {
+		"slots": {
+			"JET_PLANE_0000_Jet_light": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"JET_PLANE_0003_jet_bomb": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"explosion1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"explosion01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"projectile": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.5667, "color": "ffffffff" },
+					{ "time": 1.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.0333, "color": "ffffff00" },
+					{ "time": 2.0667, "color": "ffffffff" },
+					{ "time": 2.4667, "color": "ffffff65" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1, "color": "ffffff00" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.8, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffff00" },
+					{ "time": 1.2667, "color": "ffffffff" },
+					{ "time": 1.9333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3667, "color": "ffffff00" },
+					{ "time": 1.4, "color": "ffffffff" },
+					{ "time": 2.0667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield6": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffff00" },
+					{ "time": 1.5333, "color": "ffffffff" },
+					{ "time": 2.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield7": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.6333, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff" },
+					{ "time": 2.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.4667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield8": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.7667, "color": "ffffff00" },
+					{ "time": 1.8, "color": "ffffffff" },
+					{ "time": 2.4667, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_areaeffect_playerfield9": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.9, "color": "ffffff00" },
+					{ "time": 1.9333, "color": "ffffffff" },
+					{ "time": 2.4667, "color": "ffffff3c" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"s_pulse_playerfield": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"s_pulse_playerfield2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.3667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5667, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"shockwave_ripple": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"explotion": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 84.61 }
+				]
+			},
+			"TILE_01": {
+				"translate": [
+					{ "time": 0, "x": -4, "y": 4 }
+				]
+			},
+			"TILE_02": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 4 }
+				]
+			},
+			"TILE_03": {
+				"translate": [
+					{ "time": 0, "x": 4, "y": 4 }
+				]
+			},
+			"TILE_04": {
+				"translate": [
+					{ "time": 0, "x": 4, "y": 0 }
+				]
+			},
+			"TILE_05": {
+				"translate": [
+					{ "time": 0, "x": 4, "y": -4 }
+				]
+			},
+			"TILE_06": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4 }
+				]
+			},
+			"TILE_07": {
+				"translate": [
+					{ "time": 0, "x": -4, "y": -4 }
+				]
+			},
+			"TILE_08": {
+				"translate": [
+					{ "time": 0, "x": -4, "y": 0 }
+				]
+			},
+			"CENTER": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.5, "x": 1.8, "y": 1.8 },
+					{ "time": 0.6667, "x": 2, "y": 2 }
+				]
+			},
+			"CENTER2": {
+				"scale": [
+					{ "time": 0.2, "x": 0, "y": 0 },
+					{ "time": 0.5667, "x": 1.8, "y": 1.8 },
+					{ "time": 0.7333, "x": 2, "y": 2 }
+				]
+			},
+			"hit_squere": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "hit_text" }
+		]
+	},
+	"special_weapon_04": {
+		"slots": {
+			"JET_PLANE_0000_Jet_light": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"JET_PLANE_0003_jet_bomb": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"explosion1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "explosion01" },
+					{ "time": 0.0667, "name": "explosion02" },
+					{ "time": 0.1, "name": "explosion03" },
+					{ "time": 0.1333, "name": "explosion04" },
+					{ "time": 0.1667, "name": "explosion05" },
+					{ "time": 0.2, "name": "explosion06" },
+					{ "time": 0.2333, "name": "explosion07" },
+					{ "time": 0.2667, "name": "explosion08" },
+					{ "time": 0.3, "name": "explosion09" },
+					{ "time": 0.3333, "name": "explosion10" },
+					{ "time": 0.3667, "name": "explosion11" },
+					{ "time": 0.4, "name": "explosion12" },
+					{ "time": 0.4333, "name": "explosion13" },
+					{ "time": 0.4667, "name": "explosion14" },
+					{ "time": 0.5, "name": "explosion15" },
+					{ "time": 0.5333, "name": "explosion16" },
+					{ "time": 0.5667, "name": "explosion17" },
+					{ "time": 0.6, "name": "explosion18" },
+					{ "time": 0.6333, "name": "explosion19" },
+					{ "time": 0.6667, "name": "explosion20" },
+					{ "time": 0.7, "name": "explosion21" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"explosion01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white": {
+				"attachment": [
+					{ "time": 0, "name": "flash_light" }
+				]
+			},
+			"flash_white2": {
+				"attachment": [
+					{ "time": 0, "name": "flash_light" }
+				]
+			},
+			"projectile": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_opp_hit_2": {
+				"color": [
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"s_pulse_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_pulse_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shockwave_ripple": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"light": {
+				"translate": [
+					{ "time": 0.0333, "x": 4.03, "y": 8.06 }
+				]
+			},
+			"explotion": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 84.61 }
+				]
+			},
+			"special_weapon_04": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"hit_squere": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4667, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.3, "y": 1.3 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "on_land" },
+			{ "time": 0.7, "name": "hit_text" }
+		]
+	},
+	"special_weapon_05": {
+		"slots": {
+			"JET_PLANE_0000_Jet_light": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"JET_PLANE_0003_jet_bomb": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"explosion1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "explosion01" },
+					{ "time": 0.0667, "name": "explosion02" },
+					{ "time": 0.1, "name": "explosion03" },
+					{ "time": 0.1333, "name": "explosion04" },
+					{ "time": 0.1667, "name": "explosion05" },
+					{ "time": 0.2, "name": "explosion06" },
+					{ "time": 0.2333, "name": "explosion07" },
+					{ "time": 0.2667, "name": "explosion08" },
+					{ "time": 0.3, "name": "explosion09" },
+					{ "time": 0.3333, "name": "explosion10" },
+					{ "time": 0.3667, "name": "explosion11" },
+					{ "time": 0.4, "name": "explosion12" },
+					{ "time": 0.4333, "name": "explosion13" },
+					{ "time": 0.4667, "name": "explosion14" },
+					{ "time": 0.5, "name": "explosion15" },
+					{ "time": 0.5333, "name": "explosion16" },
+					{ "time": 0.5667, "name": "explosion17" },
+					{ "time": 0.6, "name": "explosion18" },
+					{ "time": 0.6333, "name": "explosion19" },
+					{ "time": 0.6667, "name": "explosion20" },
+					{ "time": 0.7, "name": "explosion21" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"explosion01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"flash_white": {
+				"attachment": [
+					{ "time": 0, "name": "flash_light" }
+				]
+			},
+			"flash_white2": {
+				"attachment": [
+					{ "time": 0, "name": "flash_light" }
+				]
+			},
+			"projectile": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield6": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield7": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield8": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_areaeffect_playerfield9": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_opp_hit_2": {
+				"color": [
+					{ "time": 1.3, "color": "ffffffff" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"s_pulse_playerfield": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"s_pulse_playerfield2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shockwave_ripple": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"light": {
+				"translate": [
+					{ "time": 0.0333, "x": 4.03, "y": 8.06 }
+				]
+			},
+			"explotion": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 84.61 }
+				]
+			},
+			"special_weapon_04": {
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0667, "x": 1.6, "y": 1.6 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"hit_squere": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.4667, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.3, "y": 1.3 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "on_land" },
+			{ "time": 0.7, "name": "hit_text" }
+		]
+	}
+}
+}

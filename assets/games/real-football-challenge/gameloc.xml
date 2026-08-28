@@ -1,0 +1,84 @@
+<loc>
+
+
+	<language lang="en">
+		<txt_share>Share your score now: </txt_share>
+		<txt_score>Total Score: </txt_score>
+		<description>Have an exciting summer with everyone's favorite sport: football. Lead your team to victory by solving clever tactical puzzles and claim the championship!</description>
+	</language>
+	
+	<language lang="vi">
+		<txt_share>Chia sẻ điểm số ngay:</txt_share>
+		<txt_score>Tổng điểm: </txt_score>
+		<description>Tận hưởng mùa hè sôi động cùng môn thể thao yêu thích của mọi nhà: bóng đá. Hãy giải những bài toán chiến thuật đầy trí tuệ để đưa đội bóng của mình đến vinh quang và giành chức vô địch!</description>
+	</language>
+	
+	<language lang="fr">
+		<txt_share>Partage ton score maintenant :</txt_share>
+		<txt_score>Score total: </txt_score>
+		<description>Passez un été passionnant avec le sport que tout le monde adore : le football. Menez votre équipe à la victoire en résolvant des puzzles tactiques intelligents et remportez le championnat !</description>
+	</language>
+	
+	<language lang="de">
+		<txt_share>Teile dein Ergebnis jetzt:</txt_share>
+		<txt_score>Gesamtergebnis: </txt_score>
+		<description>Erlebe einen aufregenden Sommer mit jedermanns Lieblingssport: Fußball. Führe dein Team zum Sieg, indem du gerissene taktische Puzzlespiele löst und die Meisterschaft gewinnst!</description>
+	</language>
+	
+	<language lang="es">
+		<txt_share>Comparte tu puntuación:</txt_share>
+		<txt_score>Puntuación total: </txt_score>
+		<description>¡Disfruta de un verano emocionante con el deporte favorito de todos: el fútbol! ¡Dirige a tu equipo hacia la victoria acertando preguntas tácticas y reclama el campeonato!</description>
+	</language>
+	
+	<language lang="it">
+		<txt_share>Condividi subito il tuo punteggio:</txt_share>
+		<txt_score>Punti totali: </txt_score>
+		<description>Passa un'estate entusiasmante con lo sport più seguito in assoluto: il calcio. Risolvi degli enigmi tattici e conduci la tua squadra alla vittoria del campionato!</description>
+	</language>
+	
+	<language lang="br">
+		<txt_share>Compartilhe sua pontuação agora:</txt_share>
+		<txt_score>Pontuação: </txt_score>
+		<description>Aproveite o verão com o esporte favorito da galera: futebol. Leve seu time à vitória resolvendo desafiadores quebra-cabeças táticos e domine o campeonato.</description>
+	</language>
+	
+	<language lang="tr">
+		<txt_share>Şimdi skorunu paylaş:</txt_share>
+		<txt_score>Toplam Skor: </txt_score>
+		<description>En sevilen spor futbolla heyecan dolu bir yaz geçir. Zeka gerektiren taktiksel zorlukların üstesinden gelerek takımını zafere götür ve şampiyonluğu al!</description>
+	</language>
+	
+	<language lang="ru">
+		<txt_share>Опубликуйте счет:</txt_share>
+		<txt_score>Общий счет: </txt_score>
+		<description>Проведите лето, занимаясь любимым видом спорта - футболом. Приведите команду к победе, решите тактические задачи и получите титул чемпиона!</description>
+	</language>
+	
+	<language lang="id">
+		<txt_share>Bagikan skormu sekarang:</txt_share>
+		<txt_score>Skor Total: </txt_score>
+		<description>Rasakan musim panas yang mengasyikkan dengan olahraga favorit semua orang: sepak bola. Pimpin timmu menuju kemenangan dengan memecahkan puzzle taktis yang cerdas dan klaim kejuaraan!</description>
+	</language>
+	
+	<language lang="th">
+		<txt_share>แชร์คะแนนของคุณเลย:</txt_share>
+		<txt_score>คะแนนรวม:  </txt_score>
+		<description>ยตื่นเต้นกับฤดูร้อนด้วยกีฬาที่ทุกคนโปรดปรานอย่างฟุตบอล นำทีมของคุณคว้าชัยชนะด้วยการแก้ปริศนากลยุทธ์สุดลึกล้ำและคว้าตำแหน่งแชมเปี้ยนไปครอง!</description>
+	</language>
+	
+	<language lang="tw">
+		<txt_share>立即分享分數：</txt_share>
+		<txt_score>總分： </txt_score>
+		<description>快來進行大家最愛的足球運動，度過精彩刺激的夏季時光吧！運用靈活的球場戰術解決難關，帶領球隊贏得光榮的勝利吧！</description>
+	</language>
+	
+	<language lang="cn">
+		<txt_share>立即分享您的分数:</txt_share>
+		<txt_score>总分： </txt_score>
+		<description>激情一夏，足球相伴。智解战术谜题，带领您的队伍夺取胜利，捧起最后的冠军奖杯！</description>
+	</language>
+	
+	<!--update 21/06/2016-->
+	
+</loc>

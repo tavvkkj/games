@@ -1,0 +1,440 @@
+[
+  {
+    "name": "Angry Birds (Chrome edition)",
+    "slug": "angry-birds-chrome",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/angry-birds-chrome/index.html"
+  },
+  {
+    "name": "Chrome Dino",
+    "slug": "chrome-dino",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/chrome-dino/index.html"
+  },
+  {
+    "name": "Cut the Rope (WebAssembly)",
+    "slug": "cuttherope",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/CutTheRope/index.html"
+  },
+  {
+    "name": "Cut the Rope 2 (WebAssembly)",
+    "slug": "ctr2",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/ctr2/index.html"
+  },
+  {
+    "name": "Cut the Rope: Experiments (WebAssembly)",
+    "slug": "ctrexp",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/ctrexp/index.html"
+  },
+  {
+    "name": "Cut the Rope: Magic (WebAssembly)",
+    "slug": "ctrm",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/ctrm/index.html"
+  },
+  {
+    "name": "Cut the Rope: Time Travel (BK edition)",
+    "slug": "ctr-timetravel",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/ctr-TimeTravel/index.html"
+  },
+  {
+    "name": "Edge's Let's Surf",
+    "slug": "edge-surf",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/edge-surf/index.html"
+  },
+  {
+    "name": "Google Snake",
+    "slug": "googlesnake",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/googlesnake/index.html"
+  },
+  {
+    "name": "Retro Bowl (HTML5 edition)",
+    "slug": "retrobowl",
+    "page": 1,
+    "url": "https://yell0wsuit.page/assets/games/RetroBowl/index.html"
+  },
+  {
+    "name": "Bejeweled (HTML5 edition)",
+    "slug": "bejeweled",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/bejeweled/index.html"
+  },
+  {
+    "name": "Contre Jour (IE version)",
+    "slug": "contrejour",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ContreJour/index.html"
+  },
+  {
+    "name": "Cut the Rope: Holiday Gift",
+    "slug": "ctr-holiday",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ctr-holiday/index.html"
+  },
+  {
+    "name": "Microsoft Bubble",
+    "slug": "ms-bubble",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ms-bubble/index.html"
+  },
+  {
+    "name": "Microsoft Jigsaw (HTML5 edition)",
+    "slug": "ms-jigsaw",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ms-jigsaw/index.html"
+  },
+  {
+    "name": "Microsoft Mahjong (HTML5 edition)",
+    "slug": "ms-mahjong",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ms-mahjong/index.html"
+  },
+  {
+    "name": "Microsoft Minesweeper (HTML5 edition)",
+    "slug": "ms-minesweeper",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ms-minesweeper/index.html"
+  },
+  {
+    "name": "Microsoft Solitaire Collection (HTML5 edition)",
+    "slug": "ms-solitaire",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ms-solitaire/index.html"
+  },
+  {
+    "name": "Microsoft Sudoku (HTML5 edition)",
+    "slug": "ms-sudoku",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ms-sudoku/index.html"
+  },
+  {
+    "name": "Microsoft Ultimate Word Games (HTML5 edition)",
+    "slug": "ms-wordgames",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/ms-wordgames/index.html"
+  },
+  {
+    "name": "Om Nom Bounce",
+    "slug": "omnombounce",
+    "page": 2,
+    "url": "https://yell0wsuit.page/assets/games/OmNomBounce/index.html"
+  },
+  {
+    "name": "Apple Knight (WebAssembly)",
+    "slug": "apple-knight",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/apple-knight/index.html"
+  },
+  {
+    "name": "BADLAND (WebAssembly)",
+    "slug": "badland",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/badland/index.html"
+  },
+  {
+    "name": "Crossy Road (HTML5 edition)",
+    "slug": "crossy-road",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/crossy-road/index.html"
+  },
+  {
+    "name": "Doodle Jump (HTML5 edition)",
+    "slug": "doodle-jump",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/doodle-jump/index.html"
+  },
+  {
+    "name": "Google Doodle Champion Island Games",
+    "slug": "google-kitsune",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/google-kitsune/index.html"
+  },
+  {
+    "name": "Jetpack Joyride (HTML5 edition)",
+    "slug": "jetpackjoyride",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/jetpackjoyride/index.html"
+  },
+  {
+    "name": "King of Thieves (WebAssembly)",
+    "slug": "kot",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/kot/index.html"
+  },
+  {
+    "name": "Microsoft Jewel",
+    "slug": "ms-jewel",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/ms-jewel/index.html"
+  },
+  {
+    "name": "Microsoft Jewel 2",
+    "slug": "ms-jewelplus",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/ms-jewelplus/index.html"
+  },
+  {
+    "name": "Pudding Monsters (WebAssembly)",
+    "slug": "pudding-monsters",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/pudding-monsters/index.html"
+  },
+  {
+    "name": "Temple Run 2 (HTML5 edition)",
+    "slug": "templerun2",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/templerun2/index.html"
+  },
+  {
+    "name": "Vivaldia",
+    "slug": "vivaldia",
+    "page": 3,
+    "url": "https://yell0wsuit.page/assets/games/vivaldia/index.html"
+  },
+  {
+    "name": "Battleship",
+    "slug": "battleshipscg",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/battleshipscg/index.html"
+  },
+  {
+    "name": "Doodle God (HTML5 edition)",
+    "slug": "doodle-god",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/doodle-god/index.html"
+  },
+  {
+    "name": "Find the Difference",
+    "slug": "find500differences",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/Find500Differences/index.html"
+  },
+  {
+    "name": "Fruit Ninja (HTML5 edition)",
+    "slug": "fruitninja",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/fruitninja/index.html"
+  },
+  {
+    "name": "Google Doodle's Fourth of July 2019",
+    "slug": "google-baseballjuly",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/google-baseballjuly/index.html"
+  },
+  {
+    "name": "Google Doodle's ICC Champions Trophy 2017",
+    "slug": "google-cricket17",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/google-cricket17/index.html"
+  },
+  {
+    "name": "Google Doodle's Magic Cat Academy",
+    "slug": "google-mca",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/google-mca/index.html"
+  },
+  {
+    "name": "Google Doodle's Magic Cat Academy 2",
+    "slug": "google-mca2",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/google-mca2/index.html"
+  },
+  {
+    "name": "Om Nom Connect: Christmas",
+    "slug": "omnomconnect-xmas",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/omnomconnect-xmas/index.html"
+  },
+  {
+    "name": "Om Nom Connect: Classic",
+    "slug": "omnomconnect-classic",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/omnomconnect-classic/index.html"
+  },
+  {
+    "name": "Om Nom Run",
+    "slug": "omnomrun",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/OmNomRun/index.html"
+  },
+  {
+    "name": "PAC-MAN Doodle",
+    "slug": "pacman-google",
+    "page": 4,
+    "url": "https://yell0wsuit.page/assets/games/pacman-google/index.html"
+  },
+  {
+    "name": "Apple Knight: Fight",
+    "slug": "apple-knight-fight",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/apple-knight-fight/index.html"
+  },
+  {
+    "name": "Apple Knight: Mini Dungeons",
+    "slug": "apple-knight-md",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/apple-knight-md/index.html"
+  },
+  {
+    "name": "Boost Buddies (HTML5)",
+    "slug": "boost_buddies",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/boost_buddies/index.html"
+  },
+  {
+    "name": "Chess Classic",
+    "slug": "chess-famobi",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/chess-famobi/index.html"
+  },
+  {
+    "name": "Google's Shopper Hopper!",
+    "slug": "google-shopperhopper",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/google-shopperhopper/index.html"
+  },
+  {
+    "name": "Lands of Blight",
+    "slug": "landsofblight",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/LandsOfBlight/index.html"
+  },
+  {
+    "name": "Microsoft Gem Drop",
+    "slug": "ms-gemdrop",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/ms-gemdrop/index.html"
+  },
+  {
+    "name": "Pocket Champions",
+    "slug": "pocket-champions",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/pocket-champions/index.html"
+  },
+  {
+    "name": "Rally Point",
+    "slug": "rallypoint",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/RallyPoint/index.html"
+  },
+  {
+    "name": "Sling Kong",
+    "slug": "sling-kong",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/sling-kong/index.html"
+  },
+  {
+    "name": "Squish Run",
+    "slug": "squishrun",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/SquishRun/index.html"
+  },
+  {
+    "name": "Swingo",
+    "slug": "swingo",
+    "page": 5,
+    "url": "https://yell0wsuit.page/assets/games/swingo/index.html"
+  },
+  {
+    "name": "Asphalt Retro",
+    "slug": "asphalt-retro",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/asphalt-retro/index.html"
+  },
+  {
+    "name": "Breakoid",
+    "slug": "breakoid",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/breakoid/index.html"
+  },
+  {
+    "name": "Day of Meat",
+    "slug": "dayofmeat",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/DayOfMeat/index.html"
+  },
+  {
+    "name": "Day of Meat: Castle",
+    "slug": "dayofmeat-castle",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/DayOfMeat-Castle/index.html"
+  },
+  {
+    "name": "Day of Meat: Radiation",
+    "slug": "dayofmeat-radiation",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/DayOfMeat-Radiation/index.html"
+  },
+  {
+    "name": "Dino Bros",
+    "slug": "dino-bros",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/dino-bros/index.html"
+  },
+  {
+    "name": "Element Blocks",
+    "slug": "element-blocks",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/element-blocks/index.html"
+  },
+  {
+    "name": "Microsoft Bubble 2",
+    "slug": "ms-bubble-new",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/ms-bubble-new/index.html"
+  },
+  {
+    "name": "Microsoft Mahjong 3D",
+    "slug": "ms-mahjong3d",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/ms-mahjong3d/index.html"
+  },
+  {
+    "name": "Paper Flight",
+    "slug": "paper-flight",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/paper-flight/index.html"
+  },
+  {
+    "name": "Retro Bowl College",
+    "slug": "retro-bowl-college",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/retro-bowl-college/index.html"
+  },
+  {
+    "name": "Table Tennis World Tour",
+    "slug": "tabletennis-worldtour",
+    "page": 6,
+    "url": "https://yell0wsuit.page/assets/games/tabletennis-worldtour/index.html"
+  },
+  {
+    "name": "Like a King!",
+    "slug": "likeaking",
+    "page": 7,
+    "url": "https://yell0wsuit.page/assets/games/likeaking/index.html"
+  },
+  {
+    "name": "Real Football",
+    "slug": "real-football",
+    "page": 7,
+    "url": "https://yell0wsuit.page/assets/games/real-football/index.html"
+  },
+  {
+    "name": "Real Football Challenge",
+    "slug": "real-football-challenge",
+    "page": 7,
+    "url": "https://yell0wsuit.page/assets/games/real-football-challenge/index.html"
+  },
+  {
+    "name": "Vivaldia 2",
+    "slug": "vivaldia2",
+    "page": 7,
+    "url": "https://yell0wsuit.page/assets/games/vivaldia2/index.html"
+  }
+]

@@ -1,0 +1,1 @@
+"use strict";var GLLibConfig=gloft.Class.extend({ctor:function(){}});

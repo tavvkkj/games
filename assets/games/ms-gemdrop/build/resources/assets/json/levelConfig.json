@@ -1,0 +1,484 @@
+{
+    "levels": [
+        {
+            "name": "Tutorial",
+
+            "holesNumBase": 0,
+            "holesNumDelta": 0,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 1,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 0,
+
+            "cutLinesProb": 1,
+            "cutLinesHorizontalOnlyWeight": 0,
+            "cutLinesVerticalOnlyWeight": 0,
+            "cutLinesBothWeight": 2,
+            "cutLines2Prob": 1,
+
+            "bitesNumWeights": [
+                1,
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 0,
+            "biteTypePitOnlyWeight": 1,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 3,
+            "bitesPitsReduce1Weight": 3,
+            "bitesPitsReduce2Weight": 1
+        },
+        {
+            "name": "Diagonal",
+
+            "holesNumBase": 10,
+            "holesNumDelta": 0,
+            "holesNumCoeff": 0,
+
+            "symMirrorXWeight": 0,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 1,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 1,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 0,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                1,
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 0,
+            "biteTypePitOnlyWeight": 1,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                0,
+                1,
+                0
+            ],
+
+            "bitesWidthMaxWeights": [
+                0,
+                1,
+                0
+            ],
+
+            "bitesPitsReduce0Weight": 3,
+            "bitesPitsReduce1Weight": 3,
+            "bitesPitsReduce2Weight": 1
+        },
+        {
+            "name": "NoHoles",
+
+            "holesNumBase": 0,
+            "holesNumDelta": 0,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 1,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 0,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                1,
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 0,
+            "biteTypePitOnlyWeight": 1,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 3,
+            "bitesPitsReduce1Weight": 3,
+            "bitesPitsReduce2Weight": 1
+        },
+        {
+            "name": "2XY_small_ndeep",
+
+            "holesNumBase": 5,
+            "holesNumDelta": 0,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 0,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 1,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                1,
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 0,
+            "biteTypePitOnlyWeight": 1,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 0,
+            "bitesPitsReduce1Weight": 1,
+            "bitesPitsReduce2Weight": 3
+        },
+        {
+            "name": "1Y_wide_ndeep",
+
+            "holesNumBase": 6,
+            "holesNumDelta": 2,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 1,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 0,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 0,
+            "biteTypePitOnlyWeight": 1,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 0,
+            "bitesPitsReduce1Weight": 0,
+            "bitesPitsReduce2Weight": 3
+        },
+        {
+            "name": "1Y_wide_deep",
+
+            "holesNumBase": 8,
+            "holesNumDelta": 2,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 1,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 0,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 0,
+            "biteTypePitOnlyWeight": 1,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 0,
+            "bitesPitsReduce1Weight": 3,
+            "bitesPitsReduce2Weight": 3
+        },
+        {
+            "name": "3XY_small_deep",
+
+            "holesNumBase": 10,
+            "holesNumDelta": 0,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 0,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 1,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                0,
+                0,
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 0,
+            "biteTypePitOnlyWeight": 1,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                0,
+                1,
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 0,
+            "bitesPitsReduce1Weight": 1,
+            "bitesPitsReduce2Weight": 3
+        },
+        {
+            "name": "2X_tunnels_deep",
+
+            "holesNumBase": 6,
+            "holesNumDelta": 0,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 0,
+            "edgeAxisOppositeOnlyWeight": 1,
+            "edgeAxisBothWeight": 0,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                0,
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 1,
+            "biteTypePitOnlyWeight": 0,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 0,
+            "bitesPitsReduce1Weight": 1,
+            "bitesPitsReduce2Weight": 3
+        },
+        {
+            "name": "3Y_tunnels_deep",
+
+            "holesNumBase": 9,
+            "holesNumDelta": 0,
+            "holesNumCoeff": 0.0,
+
+            "symMirrorXWeight": 1,
+            "symMirrorYWeight": 0,
+            "symAntiMirrorXWeight": 0,
+            "symAntiMirrorYWeight": 0,
+
+            "holePlaceEdgeOnlyWeight": 1,
+            "holePlaceInnerOnlyWeight": 0,
+            "holePlaceBothWeight": 0,
+            "holePlaceDistrib": 49,
+
+            "edgeAxisParallelOnlyWeight": 1,
+            "edgeAxisOppositeOnlyWeight": 0,
+            "edgeAxisBothWeight": 0,
+
+            "cutLinesProb": 0,
+            "cutLinesHorizontalOnlyWeight": 1,
+            "cutLinesVerticalOnlyWeight": 1,
+            "cutLinesBothWeight": 1,
+            "cutLines2Prob": 0.2,
+
+            "bitesNumWeights": [
+                0,
+                0,
+                1
+            ],
+
+            "biteTypeTunnelOnlyWeight": 1,
+            "biteTypePitOnlyWeight": 0,
+            "biteTypeBothWeight": 0,
+            "biteTypeDistrib": 0.15,
+
+            "bitesWidthMinWeights": [
+                1
+            ],
+
+            "bitesWidthMaxWeights": [
+                1
+            ],
+
+            "bitesPitsReduce0Weight": 0,
+            "bitesPitsReduce1Weight": 1,
+            "bitesPitsReduce2Weight": 3
+        }
+
+    ]
+}

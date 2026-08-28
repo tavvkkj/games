@@ -1,0 +1,57 @@
+{
+	"features": {
+		"highscores": 1,
+		"rewarded": 0,
+		"leaderboard": 0,
+		"multiplayer": 0,
+		"standalone": 1,
+		"credits": 0,
+		"multiplayer_local": 0
+	},
+	"game_i18n": {
+		"default": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		},
+		"de": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		},
+		"en": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		},
+		"es": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		},
+		"fr": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		},
+		"it": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		},
+		"pt": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		},
+		"tr": {
+			"filename.png": "fg_i18n/{lang}/images/filename.png"
+		}
+	},
+	"aid": "A1234-5",
+	"logging": true,
+	"name": "MSN",
+	"more_games_url": "",
+	"more_games_button_image": "logo",
+	"show_splash": false,
+	"splash_duration": 3000,
+	"branch": "master",
+	"gameParams": {
+		"ad_type": "off"
+	},
+	"menuless": true,
+	"ads": {
+		"off": true,
+		"show_initial": true,
+		"min_s_before": 10,
+		"min_s_between": 90
+	},
+	"supportedLanguages": ["de", "en", "tr", "pl", "ru", "nl", "es", "pt", "fr", "it", "sv"],
+	"version": "3c5ff399"
+}

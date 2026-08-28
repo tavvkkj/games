@@ -1,0 +1,13 @@
+{
+  "name": "tavvkkj-games-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "manifest": "node scripts/verify.mjs --write",
+    "test": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "list": [
+    {
+      "key":"floating-bonus",
+      "value": [
+        {
+          "key": "time-freeze",
+          "value": [{"key":"empty", "value":2}, {"key":"long", "value":4}, {"key":"lengthy", "value":6}]
+        },
+        {
+          "key": "grow-multiplier",
+          "value": [{"key":"empty", "value":1}, {"key":"big", "value":2}, {"key":"great", "value":3}]
+        },
+        {
+          "key": "grow-points",
+          "value": [{"key":"short", "value":3}, {"key":"long", "value":6}, {"key":"huge", "value":9}]
+        },
+        {
+          "key": "lightning-strike",
+          "value": [{"key":"empty", "value":1}, {"key":"strong", "value":2}, {"key":"mighty", "value":3}]
+        }
+      ]
+    },
+    {
+      "key":"blast-meter-enhancers",
+      "value": [
+        {
+          "key": "grow-blast-enhancers",
+          "value": [{"key":"empty", "value":20}, {"key":"abit", "value":50}, {"key":"much", "value":100}]
+        },
+        {
+          "key": "lightning-blast-enhancers",
+          "value": [{"key":"empty", "value":1}, {"key":"strong", "value":3}, {"key":"mighty", "value":5}]
+        }
+      ]
+    },
+    {
+      "key":"level-tiles-modification",
+      "value": [
+        {
+          "key": "freeze",
+          "value": [{"key":"empty", "value":2}, {"key":"long", "value":4}, {"key":"lengthy", "value":6}]
+        },
+        {
+          "key": "lightning",
+          "value": [{"key":"empty", "value":2}, {"key":"strong", "value":4}, {"key":"mighty", "value":6}]
+        },
+        {
+          "key": "fire",
+          "value": [{"key":"empty", "value":2}, {"key":"strong", "value":4}, {"key":"mighty", "value":6}]
+        }
+      ]
+    }
+  ]
+}

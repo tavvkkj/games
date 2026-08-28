@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Asphalt Retro</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <link rel="icon" href="icon.png" />
+        <link rel="apple-touch-icon" href="icon.png" />
+        <link rel="apple-touch-startup-image" href="icon.png" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <meta name="renderer" content="webkit" />
+        <meta name="force-rendering" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="msapplication-tap-highlight" content="no" />
+
+        <meta name="full-screen" content="yes" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="360-fullscreen" content="true" />
+
+        <meta name="screen-orientation" content="portrait" />
+        <meta name="x5-orientation" content="portrait" />
+        <meta name="x5-page-mode" content="app" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Asphalt Retro" />
+        <meta property="og:description" content="Asphalt Retro" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="640" />
+        <meta property="og:image:height" content="480" />
+
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+
+            canvas {
+                padding-left: 0;
+                padding-right: 0;
+                display: block;
+
+                image-rendering: crisp-edges;
+                image-rendering: optimizeSpeed; /* Older versions of FF          */
+                image-rendering: -moz-crisp-edges; /* FF 6.0+                       */
+                image-rendering: -webkit-optimize-contrast; /* Safari                        */
+                image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
+                image-rendering: pixelated; /* Awesome future-browsers       */
+                -ms-interpolation-mode: nearest-neighbor; /* IE                            */
+
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+                z-index: 0;
+            }
+
+            @font-face {
+                font-family: "Wonder";
+                src: url("Fonts/RetroGaming.ttf") format("truetype");
+            }
+        </style>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SX3SJWCLEY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-SX3SJWCLEY");
+        </script>
+        <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3324915803425189"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <!-- ============================================================================================ -->
+        <!-- ============================================================================================ -->
+
+        <div id="adsContainer" style="display: none; z-index: 2"></div>
+        <!-- ============================================================================================ -->
+        <!-- ============================================================================================ -->
+
+        <canvas id="canvas" width="240" height="320"></canvas>
+        <input type="text" id="inputName" style="display: block; z-index: 1" />
+
+        <script>
+            //var adsContainer = document.getElementById("adsContainer");
+        </script>
+
+        <script src="Source/Button.js"></script>
+
+        <script src="Source/Engine/GraphicEngine.js"></script>
+        <script src="Source/Engine/InputEngine.js"></script>
+        <script src="Source/Engine/ParticleEngine.js"></script>
+        <script src="Source/Engine/StateEngine.js"></script>
+
+        <script src="Source/Helper.js"></script>
+        <script src="Source/Settings.js"></script>
+        <script src="Source/Localization.js"></script>
+
+        <script src="Source/GSLoader/GSLoader.js"></script>
+        <script src="Source/GSMenu/GSMenu.js"></script>
+        <script src="Source/GSMapSelect/GSMapSelect.js"></script>
+        <script src="Source/GSCarSelect/GSCarSelect.js"></script>
+        <script src="Source/GSResult/GSResult.js"></script>
+        <script src="Source/GSOption/GSOption.js"></script>
+        <script src="Source/GSLegal/GSLegal.js"></script>
+        <script src="Source/GSAbout/GSAbout.js"></script>
+        <script src="Source/GSHelp/GSHelp.js"></script>
+        <script src="Source/GSLeaderboard/GSLeaderboard.js"></script>
+        <script src="Source/GSAction/GSAction.js"></script>
+        <script src="Source/GSAction/GSInGameMenu.js"></script>
+
+        <script src="Source/GSAction/Car.js"></script>
+        <script src="Source/GSAction/Enemy.js"></script>
+        <script src="Source/GSAction/Tourist.js"></script>
+        <script src="Source/GSAction/Police.js"></script>
+        <script src="Source/GSAction/Helicopter.js"></script>
+        <script src="Source/GSAction/Road.js"></script>
+        <script src="Source/GSAction/RoadSpike.js"></script>
+        <script src="Source/GSAction/Background.js"></script>
+        <script src="Source/GSAction/Particle.js"></script>
+        <script src="Source/GSAction/PowerUp.js"></script>
+        <script src="Source/GSAction/Obstacle.js"></script>
+        <script src="Source/GSAction/Fragment.js"></script>
+
+        <script src="Source/GSAction/Track.js"></script>
+        <script src="Source/GSAction/CarData.js"></script>
+
+        <script src="Source/Sound/SoundManager.js"></script>
+        <script src="Source/Sound/Sound.js"></script>
+
+        <script src="Source/Tracking.js"></script>
+
+        <script src="Source/Main.js"></script>
+        <script src="Source/Resources.js"></script>
+    </body>
+</html>

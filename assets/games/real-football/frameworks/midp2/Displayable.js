@@ -1,0 +1,1 @@
+"use strict";var _p=window;var javax=_p.javax=_p.javax||{};var microedition=_p.javax.microedition=_p.javax.microedition||{};var lcdui=_p.javax.microedition.lcdui=_p.javax.microedition.lcdui||{};var Displayable=_p.javax.microedition.lcdui.Displayable=gloft.Class.extend({_className:"Displayable",m_Graphics:null,ctor:function(a){this.m_Graphics=new Graphics(a)},});

@@ -1,0 +1,67 @@
+{
+	"profiles": [
+		{
+			"goalkeeperAsPlayerProb": 1,
+			"shotErrorProb": 0.75,
+			"shotMaxError": 0.5,
+			"wallBounceProb": 0,
+
+			"myGoalProb": 0.5,
+				"sideShotAngleSteps": 1,
+			"myBumpGoalProb": 0,
+			"myGoalShotProb": 0,
+			"myPassProb": 0,
+			"myGuardGoalProb": 0
+		},
+		{
+			"goalkeeperAsPlayerProb": 0.75,
+			"shotErrorProb": 0.5,
+			"shotMaxError": 0.5,
+			"wallBounceProb": 0,
+
+			"myGoalProb": 0.75,
+				"sideShotAngleSteps": 2,
+			"myBumpGoalProb": 0,
+			"myGoalShotProb": 0.25,
+			"myPassProb": 0.25,
+			"myGuardGoalProb": 0.15
+		},
+		{
+			"goalkeeperAsPlayerProb": 0.25,
+			"shotErrorProb": 0.35,
+			"shotMaxError": 0.4,
+			"wallBounceProb": 0.25,
+
+			"myGoalProb": 1,
+				"sideShotAngleSteps": 3,
+			"myBumpGoalProb": 0.25,
+			"myGoalShotProb": 0.5,
+			"myPassProb": 0.5,
+			"myGuardGoalProb": 0.5
+		},
+		{
+			"goalkeeperAsPlayerProb": 0,
+			"shotErrorProb": 0.15,
+			"shotMaxError": 0.2,
+			"wallBounceProb": 0.65,
+
+			"myGoalProb": 1,
+				"sideShotAngleSteps": 4,
+			"myBumpGoalProb": 0.75,
+			"myGoalShotProb": 1,
+			"myPassProb": 1,
+			"myGuardGoalProb": 0.75
+		},
+		{
+			"goalkeeperAsPlayerProb": 0,
+			"shotErrorProb": 0,
+			"shotMaxError": 0,
+
+			"myGoalProb": 1,
+				"sideShotAngleSteps": 6,
+			"myBumpGoalProb": 1,
+			"myGoalShotProb": 1,
+			"myPassProb": 1,
+			"myGuardGoalProb": 1
+		} ]
+}

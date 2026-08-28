@@ -1,0 +1,15 @@
+{
+	"name": "Om Nom Connect Classic",
+	"short_name": "Om Nom Connect Classic",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+        {
+            "src": "512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

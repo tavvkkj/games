@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Pacman Doodle</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: 'HelveticaNeue-Medium', HelveticaNeue, Helvetica, Arial;
+            font-size: 16px;
+            font-weight: lighter;
+            overflow: hidden
+        }
+
+        body,
+        html,
+        #c {
+            height: 100%;
+            overflow: hidden
+        }
+
+        #i {
+            width: 484px;
+            height: 200%;
+            -webkit-transform-origin: 0 0;
+            border: none
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SX3SJWCLEY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-SX3SJWCLEY');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3324915803425189"
+         crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="c"> <iframe id="i" src="game.html#bg=black&autoplay"> </iframe> </div>
+    <script nonce="yvFU4Z9I5C-RS53k7cVGvg">
+        var iframe = document.getElementById('i');
+        var w = 484;
+        var h = 208;
+        window.onresize = function() {
+            var scale = Math.min(window.innerWidth / w, window.innerHeight / h);
+            iframe.style.webkitTransform = 'scale(' + scale + ')';
+            var padding = Math.ceil((window.innerWidth / scale - w) / 2) + 'px';
+            iframe.style.paddingLeft = padding;
+            iframe.style.paddingRight = padding;
+        };
+        window.onresize();
+        document.addEventListener('touchstart', function() {});
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+{
+    "module" : {
+        "core" : [
+            "core/Debugger.js",
+            "core/utils/BinaryLoader.js",
+            "core/platform/Loaders.js",
+            
+            "core/platform/Class.js",
+            "core/platform/Common.js",
+            "core/cocoa/Geometry.js",
+            "core/platform/Config.js",
+            "core/platform/miniFramework.js",
+
+            "core/Director.js",
+            
+            "core/compression/zlib.min.js",
+            "core/images/PNGReader.js",
+            "core/images/TIFFReader.js",
+            "core/images/ImageReader.js",
+            
+            "core/utils/Profiler.js"
+            
+            
+        ],
+        "webgl-2d" : [
+            "webgl-2d/webgl-2d.js"
+        ],
+        "java" : [
+            "java/String.js",
+            "java/StringBuffer.js",
+            "java/InputStream.js",
+            "java/ByteArrayInputStream.js",
+            "java/DataInputStream.js",
+            "java/Math.js",
+            "java/System.js",
+            "java/Random.js",
+            "java/Integer.js",
+            "java/Hashtable.js",
+            "java/Runtime.js",
+            "java/Thread.js",
+            "java/Vector.js"
+        ],
+        "midp2" : [
+            "core", "java", 
+            "midp2/Display.js",
+            "midp2/Sprite.js",
+            "midp2/Font.js",
+            "midp2/Image.js",
+            "midp2/Graphics.js",
+            "midp2/MIDlet.js",
+            "midp2/Displayable.js",
+            "midp2/Canvas.js",
+            "midp2/Player.js",
+            "midp2/RecordStore.js",
+            "midp2/Manager.js"
+        ]
+    }
+}

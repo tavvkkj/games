@@ -1,0 +1,36 @@
+{
+	"features": {
+		"highscores": 0,
+		"leaderboard": 0,
+		"multiplayer": 0,
+		"rewarded": 0,
+		"standalone": 1,
+		"credits": 0,
+		"multiplayer_local": 1,
+		"audio": 1
+	},
+	"game_i18n": {
+		"default": {
+			"/images/find-500-differences/thumbnail-folder/": "./images_local/thumbnail-folder/",
+			"/images/find-500-differences/normal-image-folder/": "./images_local/normal-image-folder/",
+			"/images/find-500-differences/edited-image-folder/": "./images_local/edited-image-folder/"
+		}
+	},
+	"aid": "A1234-5",
+	"logging": true,
+	"api": "famobi",
+	"name": "Hyllst",
+	"more_games_url": "",
+	"more_games_button_image": "logo",
+	"show_splash": false,
+	"splash_duration": 9999,
+	"branch": "master",
+	"gameParams": {
+		"ad_type": "off"
+	},
+	"menuless": true,
+	"disable_console": false,
+	"includeJS": [],
+	"version": "5c540970",
+	"supportedLanguages": ["en"]
+}

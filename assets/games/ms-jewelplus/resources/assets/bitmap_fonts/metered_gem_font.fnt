@@ -1,0 +1,23 @@
+<font>
+  <info face="metered_gem_font" size="65" bold="1" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2, 2, 2, 2" spacing="0, 0" outline="0"/>
+  <common lineHeight="75" base="53" scaleW="376" scaleH="51" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="metered_gem_font.png"/>
+  </pages>
+  <chars count="12">
+    <char id="50" x="2" y="2" width="33" height="45" xoffset="2" yoffset="0" xadvance="33" page="0" chnl="15"/>
+    <char id="51" x="37" y="2" width="33" height="46" xoffset="2" yoffset="1" xadvance="32" page="0" chnl="15"/>
+    <char id="52" x="72" y="2" width="35" height="46" xoffset="2" yoffset="0" xadvance="34" page="0" chnl="15"/>
+    <char id="53" x="109" y="2" width="33" height="45" xoffset="2" yoffset="2" xadvance="32" page="0" chnl="15"/>
+    <char id="54" x="144" y="2" width="33" height="47" xoffset="2" yoffset="0" xadvance="33" page="0" chnl="15"/>
+    <char id="55" x="179" y="2" width="32" height="46" xoffset="2" yoffset="2" xadvance="31" page="0" chnl="15"/>
+    <char id="56" x="213" y="2" width="31" height="47" xoffset="2" yoffset="0" xadvance="30" page="0" chnl="15"/>
+    <char id="48" x="246" y="2" width="34" height="47" xoffset="2" yoffset="0" xadvance="33" page="0" chnl="15"/>
+    <char id="49" x="282" y="2" width="21" height="45" xoffset="2" yoffset="1" xadvance="22" page="0" chnl="15"/>
+    <char id="57" x="305" y="2" width="33" height="47" xoffset="2" yoffset="0" xadvance="32" page="0" chnl="15"/>
+    <char id="44" x="340" y="2" width="15" height="22" xoffset="1" yoffset="33" xadvance="11" page="0" chnl="15"/>
+    <char id="46" x="357" y="2" width="17" height="17" xoffset="2" yoffset="30" xadvance="14" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="30" xadvance="10" page="0" chnl="15"/>
+  </chars>
+  <kernings count="0"/>
+</font>

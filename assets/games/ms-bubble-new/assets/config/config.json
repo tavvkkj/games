@@ -1,0 +1,186 @@
+{
+   "showArkadiumLogo": false,
+   "forceInternalGameEnd": true,
+   "sendGameEndEvent": false,
+   "fixedIntroLevelFilenames": [
+      "level_1",
+      "level_2",
+      "level_3"
+   ],
+   "levelBuckets": [
+       { 
+           "minLevel": 3,
+           "filenames": [
+              "level_4"
+           ]
+       },
+       { 
+           "minLevel": 4,
+           "filenames": [
+              "level_5"
+           ]
+       },
+       { 
+           "minLevel": 6,
+           "filenames": [
+              "level_7"
+           ]
+       },
+       { 
+           "minLevel": 7,
+           "filenames": [
+              "level_9",
+              "level_9b"
+           ]
+       },
+       { 
+           "minLevel": 9,
+           "filenames": [
+              "level_BONUS"
+           ]
+       },
+       { 
+           "minLevel": 10,
+           "filenames": [
+              "level_11",
+              "level_11b"
+           ]
+       },
+       { 
+           "minLevel": 12,
+           "filenames": [
+              "level_13",
+              "level_13b"
+           ]
+       },
+       { 
+           "minLevel": 14,
+           "filenames": [
+              "level_15"
+           ]
+       },
+       { 
+           "minLevel": 15,
+           "filenames": [
+              "_FRA1_LGHT",
+              "_FRL1_CL1",
+              "_FRL1_H4",
+              "_FUN_LONG",
+              "_H4_MIX",
+              "_MIX1",
+              "_STB_CL1",
+              "_STB_H2"
+           ]
+       },
+       { 
+           "minLevel": 19,
+           "filenames": [
+              "level_BONUS"
+           ]
+       },
+       { 
+           "minLevel": 20,
+           "filenames": [
+              "level_21"
+           ]
+       },
+       { 
+           "minLevel": 21,
+           "filenames": [
+              "_FRA1_LGHT_HARD",
+              "_FRL1_CL1_HARD",
+              "_FRL1_H4_HARD",
+              "_FUN_LONG_HARD",
+              "_H4_MIX_HARD",
+              "_MIX1_HARD",
+              "_STB_CL1_HARD",
+              "_STB_H2_HARD"
+           ]
+       },
+       { 
+           "minLevel": 29,
+           "filenames": [
+              "level_BONUS"
+           ]
+       },
+       { 
+           "minLevel": 30,
+           "filenames": [
+              "_FRA1_LGHT_HARD",
+              "_FRL1_CL1_HARD",
+              "_FRL1_H4_HARD",
+              "_FUN_LONG_HARD",
+              "_H4_MIX_HARD",
+              "_MIX1_HARD",
+              "_STB_CL1_HARD",
+              "_STB_H2_HARD"
+           ]
+       }
+   ],
+   "gameScreenDelays": {
+      "bonusAnimationAfterViewedAds": 1.0,
+      "bonusMovesForLevelCompleted": 1.5,
+      "closeLevelCompletedWithAdsButton": 6.5,
+      "levelCompletedSubscriptionBonusMoves": 3.0,
+      "gameEndSubscriptionBonusMoves": 3.0,
+      "gameOver": 7.0,
+      "initializeGameEnd": 5.0
+   },
+   "hasBoosts" : true,
+   "numRowsToThaw" : 10,
+   "missions": {
+       "majorMissions": [
+           { "goal": "completeLevels", "amtRequired": 4, "reward": "mortar", "amtRewarded": 1 },
+           { "goal": "completeLevels", "amtRequired": 4, "reward": "mortar", "amtRewarded": 1 },
+           { "goal": "completeLevels", "amtRequired": 4, "reward": "mortar", "amtRewarded": 1 }
+       ],
+       "finalRandomMajorMissions": [
+           { "goal": "completeLevels", "amtRequired": 4, "reward": "mortar", "amtRewarded": 1 },
+           { "goal": "completeLevels", "amtRequired": 4, "reward": "mortar", "amtRewarded": 1 }
+       ],
+       "minorMissions": [
+           { "goal": "matchBubbles", "amtRequired": 50, "reward": "plusMoves", "amtRewarded": 10 },
+           { "goal": "dropBubbles", "amtRequired": 30, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "matchRedBubbles", "amtRequired": 15, "reward": "launcherUpgrade", "amtRewarded": 1 },
+           { "goal": "dropBlueBubbles", "amtRequired": 25, "reward": "plusBubble", "amtRewarded": 1 },
+           { "goal": "matchYellowBubbles", "amtRequired": 20, "reward": "plusMoves", "amtRewarded": 10 },
+           { "goal": "dropGreenBubbles", "amtRequired": 30, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "matchBubbles", "amtRequired": 60, "reward": "plusBubble", "amtRewarded": 1 },
+           { "goal": "dropBubbles", "amtRequired": 40, "reward": "launcherUpgrade", "amtRewarded": 1 },
+           { "goal": "matchBlueBubbles", "amtRequired": 25, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "dropYellowBubbles", "amtRequired": 35, "reward": "plusMoves", "amtRewarded": 10 },
+           { "goal": "matchGreenBubbles", "amtRequired": 30, "reward": "plusBubble", "amtRewarded": 1 },
+           { "goal": "matchBubbles", "amtRequired": 60, "reward": "plusMoves", "amtRewarded": 10 },
+           { "goal": "dropRedBubbles", "amtRequired": 40, "reward": "rocket", "amtRewarded": 1 }
+       ],
+       "finalRandomMinorMissions": [
+           { "goal": "matchBubbles", "amtRequired": 70, "reward": "plusBubble", "amtRewarded": 1 },
+           { "goal": "dropBubbles", "amtRequired": 40, "reward": "plusMoves", "amtRewarded": 10 },
+           { "goal": "matchBubbles", "amtRequired": 70, "reward": "plusBubble", "amtRewarded": 1 },
+           { "goal": "dropBubbles", "amtRequired": 40, "reward": "plusMoves", "amtRewarded": 10 },
+           { "goal": "matchBubbles", "amtRequired": 70, "reward": "plusBubble", "amtRewarded": 1 },
+           { "goal": "dropBubbles", "amtRequired": 40, "reward": "plusMoves", "amtRewarded": 10 },
+           { "goal": "matchRedBubbles", "amtRequired": 45, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "matchGreenBubbles", "amtRequired": 45, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "matchYellowBubbles", "amtRequired": 45, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "matchBlueBubbles", "amtRequired": 45, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "dropBlueBubbles", "amtRequired": 30, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "dropYellowBubbles", "amtRequired": 30, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "dropGreenBubbles", "amtRequired": 30, "reward": "rocket", "amtRewarded": 1 },
+           { "goal": "dropRedBubbles", "amtRequired": 30, "reward": "rocket", "amtRewarded": 1 }
+       ]
+   },
+   "ftueItems": [
+       { "id": "lightningBubble", "helpPageNumber": 1, "force": false },
+       { "id": "bombBubble", "helpPageNumber": 2, "force": false },
+       { "id": "plusBubble", "helpPageNumber": 3, "force": true },
+       { "id": "colorChangingBubble", "helpPageNumber": 4, "force": true },
+       { "id": "mortar", "helpPageNumber": 5, "force": true },
+       { "id": "stoneBubble", "helpPageNumber": 6, "force": false },
+       { "id": "iceBubble", "helpPageNumber": 7, "force": false },
+       { "id": "spikeBubble", "helpPageNumber": 8, "force": false },
+       { "id": "vineBubble", "helpPageNumber": 9, "force": true },
+       { "id": "blob", "helpPageNumber": 10, "force": true },
+       { "id": "anchor", "helpPageNumber": 11, "force": true }
+   ]
+}

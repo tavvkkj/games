@@ -1,0 +1,1 @@
+var _p=window;var java=_p.java=_p.java||{};var lang=_p.java.lang=_p.java.lang||{};_p.java.lang.Math=Math;

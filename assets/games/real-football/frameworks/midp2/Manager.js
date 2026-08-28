@@ -1,0 +1,1 @@
+"use strict";var _p=window;var javax=_p.javax=_p.javax||{};var microedition=_p.javax.microedition=_p.javax.microedition||{};var media=_p.javax.microedition.media=_p.javax.microedition.media||{};var Manager=_p.javax.microedition.media.Manager=gloft.Class.extend({ctor:function(){},});Manager.createPlayer=function(b,a){return new Player(b,a)};

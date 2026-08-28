@@ -1,0 +1,35 @@
+{
+    "numMoves": 60,
+    "movesBonusPerMidAd": 35,
+    "movesBonusOnEndAd": 60,
+    "moveIncreasePerLevel": 5,
+
+    "numBubblesPerRow": 11,
+
+    "startingNumberOfRows": 9,
+    "rowIncrease": 1.5,
+    "numLevelsBeforeIncrease": 1,
+
+    "lightningBubbleRadius": 30,
+    "lightningBubbleSpeedLoss": 4000,
+
+    "gridBombBubbleRadius": 1,
+    "cannonBombBubbleRadius": 1,
+    "bombBubbleSpeedLoss": 14880,
+
+    "lastRowAlwaysHasLightningBubble": true,
+
+    "ballTrajectoryCutoffY":  300,
+    "scoreForPoppedBubble": 10,
+    "scoreForFellBubble": 100,
+
+    "scorePowerUpClearedStone": 100,
+    "scoreDroppedStone": 200,
+    "scoreClearedVine": 500,
+    "scoreDroppedVine": 1000,
+    "scorePowerUpClearedSpike": 200,
+    "scoreDroppedSpike": 400,
+    "scoreRemovedAnchor": 1000,
+    "scoreBubbleJoinedBlob": 0,
+    "scoreBlobPopped": 20000
+}

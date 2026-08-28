@@ -1,0 +1,701 @@
+{
+    "tutorialMapping": [
+        {
+            "levelID": "Tutorial",
+            "obstaclePatternIDs": [
+                {
+                    "value": "TutorialWoodPattern0",
+                    "weight": 1
+                }
+            ],
+            "level": 0
+        },
+        {
+            "levelID": "Tutorial",
+            "obstaclePatternIDs": [
+                {
+                    "value": "TutorialWoodPattern1",
+                    "weight": 1
+                }
+            ],
+            "level": 1
+        }
+    ],
+    "mapping": [
+        {
+            "optionID": "Easy_1",
+            "levelID": "NoHoles",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "DiagonalCrossRL_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "CornerObstacles",
+                    "weight": 200
+                },
+                {
+                    "value": "HardBox_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns4_1_Chess_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns2_1_Chess_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns1_1_Cake_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Lines6_1_Easy",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines3_1_Easy",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines2_1_Easy",
+                    "weight": 33
+                }
+
+                
+            ],
+            "patternMinLevel": 0,
+            "patternMaxLevel": 9,
+            "patternWeightBase": 800,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Easy_2",
+            "levelID": "1Y_wide_ndeep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "HardBox_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns4_1_Chess_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns2_1_Chess_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns1_1_Cake_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Lines6_1_Easy",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines3_1_Easy",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines2_1_Easy",
+                    "weight": 33
+                }
+            ],
+            "patternMinLevel": 0,
+            "patternMaxLevel": 9,
+            "patternWeightBase": 400,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Easy_3",
+            "levelID": "2XY_small_ndeep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "HardBox_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns4_1_Chess_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns2_1_Chess_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns1_1_Cake_Easy",
+                    "weight": 25
+                },
+                {
+                    "value": "Lines6_1_Easy",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines3_1_Easy",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines2_1_Easy",
+                    "weight": 33
+                }
+            ],
+            "patternMinLevel": 0,
+            "patternMaxLevel": 9,
+            "patternWeightBase": 400,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Easy_unique",
+            "levelID": "NoHoles",
+            "obstaclePatternIDs": [
+                {
+                    "value": "ChestsAndBasement_Easy",
+                    "weight": 100
+                },
+                {
+                    "value": "PatternFromDoc",
+                    "weight": 100
+                },
+                {
+                    "value": "Chests1_Many_Easy",
+                    "weight": 100
+                }
+            ],
+            "patternMinLevel": 5,
+            "patternMaxLevel": 11,
+            "patternWeightBase": 300,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Med_1",
+            "levelID": "NoHoles",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns4_1_Chess_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns2_1_Chess_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns1_1_Cake_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Lines6_1_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines3_1_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines2_1_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "Chests1_Many_Med",
+                    "weight": 300
+                },
+                {
+                    "value": "ChestsAndBasement",
+                    "weight": 60
+                }
+
+
+            ],
+            "patternMinLevel": 6,
+            "patternMaxLevel": 16,
+            "patternWeightBase": 860,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Med_2",
+            "levelID": "1Y_wide_ndeep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Easy",
+                    "weight": 50
+                },
+                {
+                    "value": "DiagonalCrossRL_Easy",
+                    "weight": 50
+                },
+                {
+                    "value": "CornerObstacles",
+                    "weight": 100
+                }
+            ],
+            "patternMinLevel": 6,
+            "patternMaxLevel": 16,
+            "patternWeightBase": 200,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Med_3",
+            "levelID": "2XY_small_ndeep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Easy",
+                    "weight": 50
+                },
+                {
+                    "value": "DiagonalCrossRL_Easy",
+                    "weight": 50
+                },
+                {
+                    "value": "CornerObstacles",
+                    "weight": 100
+                }
+            ],
+            "patternMinLevel": 6,
+            "patternMaxLevel": 16,
+            "patternWeightBase": 200,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Med_4",
+            "levelID": "1Y_wide_deep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns4_1_Chess_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns2_1_Chess_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns1_1_Cake_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Lines6_1_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines3_1_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines2_1_Med",
+                    "weight": 33
+                }
+
+            ],
+            "patternMinLevel": 6,
+            "patternMaxLevel": 16,
+            "patternWeightBase": 500,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Med_5",
+            "levelID": "3XY_small_deep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Med",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns4_1_Chess_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns2_1_Chess_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Columns1_1_Cake_Med",
+                    "weight": 25
+                },
+                {
+                    "value": "Lines6_1_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines3_1_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "Lines2_1_Med",
+                    "weight": 33
+                }
+
+            ],
+            "patternMinLevel": 6,
+            "patternMaxLevel": 16,
+            "patternWeightBase": 500,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Hard_1",
+            "levelID": "NoHoles",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Hard",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Hard",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns4_1_Chess_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns2_1_Chess_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns1_1_Cake_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Lines6_1_Hard",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines3_1_Hard",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines2_1_Hard",
+                    "weight": 40
+                },
+                {
+                    "value": "Chests1_Many_Hard",
+                    "weight": 500
+                }
+
+            ],
+            "patternMinLevel": 13,
+            "patternMaxLevel": -1,
+            "patternWeightBase": 1040,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Hard_2",
+            "levelID": "1Y_wide_deep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Hard",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Hard",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns4_1_Chess_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns2_1_Chess_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns1_1_Cake_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Lines6_1_Hard",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines3_1_Hard",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines2_1_Hard",
+                    "weight": 40
+                }
+
+            ],
+            "patternMinLevel": 13,
+            "patternMaxLevel": -1,
+            "patternWeightBase": 540,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Hard_3",
+            "levelID": "3XY_small_deep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Hard",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Hard",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Hard",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns4_1_Chess_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns2_1_Chess_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns1_1_Cake_Hard",
+                    "weight": 30
+                },
+                {
+                    "value": "Lines6_1_Hard",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines3_1_Hard",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines2_1_Hard",
+                    "weight": 40
+                }
+
+            ],
+            "patternMinLevel": 13,
+            "patternMaxLevel": -1,
+            "patternWeightBase": 540,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Hard_4",
+            "levelID": "2X_tunnels_deep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "Lines6_1_Med",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines3_1_Med",
+                    "weight": 40
+                },
+                {
+                    "value": "Lines2_1_Med",
+                    "weight": 40
+                }
+
+            ],
+            "patternMinLevel": 13,
+            "patternMaxLevel": -1,
+            "patternWeightBase": 420,
+            "patternWeightAdd": 0
+        },
+        {
+            "optionID": "Hard_5",
+            "levelID": "3Y_tunnels_deep",
+            "obstaclePatternIDs": [
+                {
+                    "value": "DiagonalCrossLR_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "DiagonalCrossRL_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "BigBasement_Med",
+                    "weight": 33
+                },
+                {
+                    "value": "HardBox_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "SolidSquareGems_Med",
+                    "weight": 100
+                },
+                {
+                    "value": "Columns4_1_Med",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns4_1_Chess_Med",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns2_1_Chess_Med",
+                    "weight": 30
+                },
+                {
+                    "value": "Columns1_1_Cake_Med",
+                    "weight": 30
+                }
+
+            ],
+            "patternMinLevel": 13,
+            "patternMaxLevel": -1,
+            "patternWeightBase": 420,
+            "patternWeightAdd": 0
+        }
+    ]
+}

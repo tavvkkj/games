@@ -1,0 +1,61 @@
+{
+    "baseNumberOfRows": 40,
+    "rowMultiplier": 1,
+    "scalePatternsByNumberOfRows": true,
+    "fixedNumberOfRows": false,
+    "applyDifficultyDelta": false,
+
+    "randomColorInsteadOfWorstColorProbability": 0.8,
+
+    "minNumSameColorLinesPerLevel": 10,
+    "maxNumSameColorLinesPerLevel": 14,
+    "minSameColorLineLength": 6,
+    "maxSameColorLineLength": 7,
+
+    "minNumSameColorCirclesPerLevel": 6,
+    "maxNumSameColorCirclesPerLevel": 8,
+    "minSameColorCircleLength": 4,
+    "maxSameColorCircleLength": 8,
+
+    "minNumLightningBubbles": 0,
+    "maxNumLightningBubbles": 0,
+
+    "minNumBombBubbles": 0,
+    "maxNumBombBubbles": 0,
+
+    "minNumPlusBubbles": 1,
+    "maxNumPlusBubbles": 1,
+    
+    "minNumStoneBubbles": 0,
+    "maxNumStoneBubbles": 0,
+
+    "minNumIceLinesPerLevel": 0,
+    "maxNumIceLinesPerLevel": 0,
+    "minIceLineLength": 4,
+    "maxIceLineLength": 6,
+
+    "minNumIceCirclesPerLevel": 0,
+    "maxNumIceCirclesPerLevel": 0,
+    "minIceCircleLength": 4,
+    "maxIceCircleLength": 6,
+
+    "minNumSpikeCirclesPerLevel": 6,
+    "maxNumSpikeCirclesPerLevel": 10,
+    "minSpikeCircleLength": 4,
+    "maxSpikeCircleLength": 6,
+
+    "minNumBlobsPerLevel": 0,
+    "maxNumBlobsPerLevel": 0,
+    "minBlobLength": 4,
+    "maxBlobLength": 6,
+
+    "minNumHoles": 50,
+    "maxNumHoles": 60,
+    "oneSlotHoleProbability": 0.5,
+    "twoSlotHoleProbability": 0.6,
+    "threeSlotHoleProbability": 1,
+    "holeSymmetry": true,
+
+    "randomHoleSymmetry": true,
+    "holeSymmetryChance": 0.5
+}

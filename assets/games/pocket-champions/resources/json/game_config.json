@@ -1,0 +1,201 @@
+{
+	"stadiums": [
+		{
+			"name": "Backyard Barn",
+			"entryFee": 0,
+			"reward": 50,
+			"consolation": 5,
+			"logo": "stadium_logo_v01",
+			"logoOff": "stadium_logo_off_v01",
+			"text": "Beginners always welcome.",
+			"winsToUnlock": 0,
+			"timeLimit": 20
+		},
+		{
+			"name": "Street Club",
+			"entryFee": 25,
+			"reward": 100,
+			"consolation": 5,
+			"logo": "stadium_logo_v02",
+			"logoOff": "stadium_logo_off_v02",
+			"text": "Have fun playing with friends.",
+			"winsToUnlock": 3,
+			"timeLimit": 16
+		},
+		{
+			"name": "Profi Park",
+			"entryFee": 50,
+			"reward": 200,
+			"consolation": 10,
+			"logo": "stadium_logo_v03",
+			"logoOff": "stadium_logo_off_v03",
+			"text": "Where winners are born.",
+			"winsToUnlock": 6,
+			"timeLimit": 12
+		},
+		{
+			"name": "National Arena",
+			"entryFee": 125,
+			"reward": 500,
+			"consolation": 25,
+			"logo": "stadium_logo_v04",
+			"logoOff": "stadium_logo_off_v04",
+			"text": "Play like a pro.",
+			"winsToUnlock": 9,
+			"timeLimit": 10
+		},
+		{
+			"name": "Superstar Stadium",
+			"entryFee": 250,
+			"reward": 1000,
+			"consolation": 50,
+			"logo": "stadium_logo_v05",
+			"logoOff": "stadium_logo_off_v05",
+			"text": "The whole world is watching you.",
+			"winsToUnlock": 12,
+			"timeLimit": 8
+		} ],
+	"formations": 
+		{
+			"offensive": [ 
+					[ [ 280, 398 ], [ 187, 255 ], [ 374, 255 ], [ 89, 147 ], [ 280, 147 ], [ 471, 147 ] ],
+					[ [ 280, 398 ], [ 182, 261 ], [ 378, 261 ], [ 280, 186 ], [ 182, 114 ], [ 378, 114 ] ],
+					[ [ 280, 398 ], [ 115, 222 ], [ 280, 255 ], [ 445, 222 ], [ 195, 130 ], [ 365, 130 ] ],
+					[ [ 280, 398 ], [ 169, 235 ], [ 391, 235 ], [ 106, 186 ], [ 454, 186 ], [ 280, 143 ] ],
+					[ [ 280, 398 ], [ 189, 195 ], [ 371, 195 ], [ 106, 106 ], [ 454, 106 ], [ 280, 275 ] ]
+				],
+			"defensive": [ 
+					[ [ 280, 398 ], [ 89, 255 ], [ 280, 255 ], [ 471, 255 ], [ 187, 147 ], [ 374, 147 ] ],
+					[ [ 280, 398 ], [ 187, 317 ], [ 374, 317 ], [ 280, 245 ], [ 187, 173 ], [ 374, 173 ] ],
+					[ [ 280, 398 ], [ 105, 357 ], [ 455, 357 ], [ 280, 305 ], [ 187, 173 ], [ 374, 173 ] ],
+					[ [ 280, 398 ], [ 185, 317 ], [ 375, 317 ], [ 280, 245 ], [ 137, 237 ], [ 414, 237 ] ],
+					[ [ 280, 398 ], [ 209, 353 ], [ 351, 353 ], [ 155, 310 ], [ 405, 310 ], [ 280, 173 ] ]
+				]
+		},
+	"tokens": [
+		{
+			"price": 0,
+			"skin": "puck_x2_01",
+			"title": "Stars"
+		},
+		{
+			"price": 0,
+			"skin": "puck_x2_02",
+			"title": "Skulls"
+		},
+		{
+			"price": 50,
+			"skin": "puck_x2_03",
+			"title": "Invaders"
+		},
+		{
+			"price": 50,
+			"skin": "puck_x2_04",
+			"title": "Hearts"
+		},
+		{
+			"price": 50,
+			"skin": "puck_x2_05",
+			"title": "Peace"
+		},
+		{
+			"price": 100,
+			"skin": "puck_x2_06",
+			"title": "Smileys"
+		},
+		{
+			"price": 100,
+			"skin": "puck_x2_07",
+			"title": "Devils"
+		},
+		{
+			"price": 100,
+			"skin": "puck_x2_08",
+			"title": "Clovers"
+		},
+		{
+			"price": 100,
+			"skin": "puck_x2_09",
+			"title": "Flash"
+		},
+		{
+			"price": 100,
+			"skin": "puck_x2_10",
+			"title": "Ghosts"
+		},
+		{
+			"price": 200,
+			"skin": "puck_x2_11",
+			"title": "Ying-Yang"
+		},
+		{
+			"price": 200,
+			"skin": "puck_x2_12",
+			"title": "Flowers"
+		},
+		{
+			"price": 200,
+			"skin": "puck_x2_13",
+			"title": "8-Ball"
+		},
+		{
+			"price": 200,
+			"skin": "puck_x2_14",
+			"title": "Cherries"
+		},
+		{
+			"price": 200,
+			"skin": "puck_x2_15",
+			"title": "Diamonds"
+		},
+		{
+			"price": 500,
+			"skin": "puck_x2_16",
+			"title": "Universe"
+		},
+		{
+			"price": 500,
+			"skin": "puck_x2_17",
+			"title": "Bats"
+		},
+		{
+			"price": 500,
+			"skin": "puck_x2_18",
+			"title": "Dollars"
+		},
+		{
+			"price": 500,
+			"skin": "puck_x2_19",
+			"title": "Lanterns"
+		},
+		{
+			"price": 500,
+			"skin": "puck_x2_20",
+			"title": "Robots"
+		},
+		{
+			"price": 1000,
+			"skin": "puck_x2_21",
+			"title": "Pizzas"
+		},
+		{
+			"price": 1000,
+			"skin": "puck_x2_22",
+			"title": "Eyes"
+		},
+		{
+			"price": 1000,
+			"skin": "puck_x2_23",
+			"title": "Rings"
+		},
+		{
+			"price": 2000,
+			"skin": "puck_x2_24",
+			"title": "Wolves"
+		},
+		{
+			"price": 5000,
+			"skin": "puck_x2_25",
+			"title": "Aces"
+		} ]
+}

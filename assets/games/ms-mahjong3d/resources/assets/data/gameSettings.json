@@ -1,0 +1,70 @@
+{
+  "cheats":false,
+  "linkToAvatarStorage": "https://arenacloud.cdn.arkadiumhosted.com/arenaxstorage-blob/arenax-index/_arena-shared-content_/arkadium-avatars/1x/",
+  "linkToFrameStorage": "https://arenacloud.cdn.arkadiumhosted.com/arenaxstorage-blob/arenax-index/_arena-shared-content_/arkadium-frames/png/1x/",
+  "time": 360,
+  "score": {
+    "firstMultimatchBonus": 15000,
+    "multimatchBonus": 5000,
+    "puzzleCompleteBonus": 5000,
+    "speedChainBonus": 170
+  },
+  "login": false,
+  "boosts": false,
+  "blastMode": false,
+  "progressSaving": true,
+  "infiniteMode": false,
+  "showHint": false,
+  "generateMultiplierTile": false,
+  "numberOfReshufflesAvailable": -1,
+  "manualReshuffle": false,
+  "maxLevels": 1,
+  "speedBonusEnabled": false,
+  "showChainBlastMessage": false,
+  "darkenUnselectableTiles": true,
+  "interactionCooldown": 0,
+
+  "multiplierMeterDurations": [
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      4,
+      3,
+      3,
+      2,
+	  2,
+	  1
+  ],
+  "multiplierMeterMode": "scoreCurrentMultiplier",
+
+  "timeTileMode": "static",
+  "timeTileNumMatchesToIncreaseTime": 5,
+  "timeTileTimeIncrement": 5,
+  "timeTileSpeedMatchBaseValue": 5,
+
+  "timeTileStartingTime0": 15,
+  "timeTileStartingTime1": 5,
+  "timeTileStartingTime2": 7,
+  "timeTileStartingTime3": 10,
+  "timeTileStartingTime4": 15,
+  "timeTileStartingTime5": 30,
+
+  "offerAdditionalTimeForAd": false,
+  "timeAddedOnWatchAd": 120,
+
+  "showNextLevelPopup": true,
+
+  "timeWarningThresholds": [
+      30,
+      10,
+      5,
+      4,
+      3,
+      2,
+      1
+  ]
+}

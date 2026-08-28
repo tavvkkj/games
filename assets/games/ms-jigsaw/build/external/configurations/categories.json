@@ -1,0 +1,128 @@
+{
+  "categories": [
+    {
+      "key": "animals",
+      "imgIcon": "icons/Animals.png",
+      "imgSource": "Animals/1041AS-00004_preview.webp",
+      "value":
+      {
+        "ids": ["Dinosaurs","AnimalCloseups","Animals","BabyAnimals", "BadHairDay","Butterflies","Butterflies2",
+          "Cats","ColorfulBirds","CuteAnimals","Dogs","DressedAnimals","Eagles","Everglades","FunnyAnimals","Hedgehogs", "Horses", "Kittens",
+          "LittleAnimals", "Love", "Otters", "Owls", "Pandas", "Pets", "Puppies", "ReefLife","ReefLife2","SeaLife",
+          "SeaLife2","Wolves","WildAnimals"],
+        "tags": []
+      }
+    },
+    {
+      "key": "locations",
+      "imgIcon": "icons/Locations.png",
+      "imgSource": "Australia/1439R-1101274_preview.webp",
+      "value":
+      {
+        "ids": ["Antarctica", "Australia", "Banff", "BigSur", "BritishColumbia", "Canada", "CountyFair", "Countries", "FamousParks",
+          "France", "Germany", "HongKong", "Iceland", "Ireland", "Italy", "Japan", "LasVegas", "London", "LosAngeles", "Madagascar",
+          "Mexico", "Miami", "NewYorkCity","Netherlands","SanFrancisco", "Sicily", "Spain", "SriLanka", "Switzerland", "Thailand", "Thailand2",
+          "Tokyo", "TourOfAfrica", "TourOfEurope", "TourOfSouthAmerica", "Yellowstone", "Yosemite"],
+        "tags": []
+      }
+    },
+    {
+      "key": "nature",
+      "imgIcon": "icons/Nature.png",
+      "imgSource": "Spring/1848R-355744_preview.webp",
+      "value":
+      {
+        "ids": ["Autumn","BeautifulNature","Cacti","ColorfulSkies","Climbers","FlowerCloseups","Flowers","Flowers2","Galapagos","Gardens","Jungle","Nature","Oceans",
+          "StateFlowers","StateFlowers2","Spring","Volcanoes","Volcanoes2","Waterfalls","Waterfalls2","Weather","Weather2","Winter","WinterWonderland"],
+        "tags": []
+      }
+    },
+    {
+      "key":"objects",
+      "imgIcon": "icons/Objects.png",
+      "imgSource": "HeartShapes/1795R-76639_preview.webp",
+      "value":
+      {
+        "ids": ["FireFighting","HowItsMade","HowItsMade2","Action","AmusementParks","Antiques","Bowling","ButfirstCoffee","ColorfulWorld","Colors",
+          "FarmLife","FragileFigurines","Fun&Games","HeartShapes","HomeSweetHome","KidsPack","MardiGras","Medieval","ModelRailway","MuseumAnimals","Music","OnTheJob","SeamedPerfect","SeeAFace",
+		  "Sports","StrangeThings","Thanksgiving","Western"],
+        "tags": []
+      }
+    },
+    {
+      "key": "architecture",
+      "imgIcon": "icons/Architecture.png",
+      "imgSource": "Architecture/4292R-149382_preview.webp",
+      "value":
+      {
+        "ids": ["AncientRuins","Archaeology","Architecture","Architecture2","Barns","Bridges","Castles","Cityscapes","CoveredBridges",
+          "Design","Doors","Fountains","Hideaways","Lighthouses","Luxury","Topiary","Travel"],
+        "tags": []
+      }
+    },
+    {
+      "key": "landscape",
+      "imgIcon": "icons/Landscape.png",
+      "imgSource": "Landscapes2/1041LS-00009_preview.webp",
+      "value":
+      {
+        "ids": ["Beaches","Camping","Deserts","Fields","Islands","Landscapes","Landscapes2","LandscapePaintings","NorthernLights",
+          "Rivers","RoadTrip","RockFormations","SunriseSunset","WinterWonderland"],
+        "tags": []
+      }
+    },
+    {
+      "key": "patterns",
+      "imgIcon": "icons/Patterns.png",
+      "imgSource": "Colors/1589R-12805758_preview.webp",
+      "value":
+      {
+        "ids": ["Action","Antiques","Colors","Design","Fireworks","FlowerCloseups","Liquid","Masquerade","Nebulas","SeamedPerfect","Surfaces","Surfaces2",
+          "Volcanoes"],
+        "tags": []
+      }
+    },
+    {
+      "key": "vehicles",
+      "imgIcon": "icons/Vehicles.png",
+      "imgSource": "Cars/1889R-54374_preview.webp",
+      "value":
+      {
+        "ids": ["FireFighting","BoatsShips","Cars","Helicopters","HotAirBalloons","HotAirBalloons2","Motorcycles","NeedforSpeed","SailsAndSeas","SemiTrucks",
+          "Trains"],
+        "tags": []
+      }
+    },
+    {
+      "key": "digitalart",
+      "imgIcon": "icons/Digitalart.png",
+      "imgSource": "Dinosaurs/1589R-13018317_preview.webp",
+      "value":
+      {
+        "ids": ["Dinosaurs","Dinosaurs2","Dinosaurs3","FableAnniversary","Forza","HiddenObjectAdera","HiddenObject","Nebulas","OriandtheBlindForest",
+          "OutofthisWorld","ProjectSpark"],
+        "tags": []
+      }
+    },
+    {
+      "key": "food",
+      "imgIcon": "icons/Food.png",
+      "imgSource": "Breakfast/1828R-83320_preview.webp",
+      "value":
+      {
+        "ids": ["Breakfast","ButfirstCoffee","Crops","Food","Food2","Fruit","TreeFruits","StillLife","Sweets","Thanksgiving"],
+        "tags": []
+      }
+    },
+    {
+      "key": "paintings",
+      "imgIcon": "icons/Paintings.png",
+      "imgSource": "AlbertBierstadt/1031AB-00004_preview.webp",
+      "value":
+      {
+        "ids": ["Abstract","AlbertBierstadt","AmericanHistory","EarthOnCanvas","LandscapePaintings","StillLife","VincentVanGogh"],
+        "tags": []
+      }
+    }
+  ]
+}

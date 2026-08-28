@@ -1,0 +1,26 @@
+<font>
+  <info face="cell_score_font" size="58" bold="1" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="62" base="36" scaleW="100" scaleH="277" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="cell_score_font.png"/>
+  </pages>
+  <chars count="16">
+    <char id="48" x="2" y="2" width="26" height="38" xoffset="2" yoffset="0" xadvance="29" page="0" chnl="15"/>
+    <char id="49" x="2" y="42" width="14" height="36" xoffset="2" yoffset="0" xadvance="19" page="0" chnl="15"/>
+    <char id="50" x="2" y="80" width="26" height="37" xoffset="2" yoffset="0" xadvance="29" page="0" chnl="15"/>
+    <char id="51" x="2" y="119" width="25" height="37" xoffset="2" yoffset="0" xadvance="28" page="0" chnl="15"/>
+    <char id="52" x="2" y="158" width="27" height="37" xoffset="2" yoffset="0" xadvance="30" page="0" chnl="15"/>
+    <char id="53" x="18" y="42" width="25" height="36" xoffset="2" yoffset="1" xadvance="28" page="0" chnl="15"/>
+    <char id="54" x="30" y="2" width="26" height="38" xoffset="2" yoffset="0" xadvance="29" page="0" chnl="15"/>
+    <char id="55" x="29" y="119" width="25" height="37" xoffset="2" yoffset="1" xadvance="28" page="0" chnl="15"/>
+    <char id="56" x="45" y="42" width="24" height="38" xoffset="2" yoffset="0" xadvance="27" page="0" chnl="15"/>
+    <char id="57" x="58" y="2" width="26" height="38" xoffset="2" yoffset="0" xadvance="29" page="0" chnl="15"/>
+    <char id="88" x="2" y="197" width="31" height="38" xoffset="2" yoffset="0" xadvance="35" page="0" chnl="15"/>
+    <char id="44" x="30" y="80" width="9" height="16" xoffset="1" yoffset="29" xadvance="10" page="0" chnl="15"/>
+    <char id="46" x="30" y="98" width="11" height="11" xoffset="1" yoffset="27" xadvance="12" page="0" chnl="15"/>
+    <char id="75" x="2" y="237" width="29" height="38" xoffset="4" yoffset="0" xadvance="34" page="0" chnl="15"/>
+    <char id="66" x="31" y="158" width="28" height="36" xoffset="4" yoffset="1" xadvance="33" page="0" chnl="15"/>
+    <char id="77" x="56" y="82" width="42" height="36" xoffset="2" yoffset="1" xadvance="45" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="2" yoffset="1" xadvance="9" page="0" chnl="15"/>
+  </chars>
+</font>

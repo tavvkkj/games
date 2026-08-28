@@ -1,0 +1,31 @@
+{
+	"supportedPlatforms": [],
+	"platform": "CoolMathGames",
+	"extraData": {
+		"Poki": {
+			"data": {
+				"sitelock": ""
+			},
+			"debugData": {}
+		},
+		"CrazyGames": {
+			"data": {}
+		},
+		"GamePix": {
+			"data": {}
+		},
+		"GameDistribution": {
+			"data": {
+				"gameId": "GAME ID HERE"
+			}
+		},
+		"GameMonetize": {
+			"data": {
+				"gameId": "GAME ID HERE"
+			}
+		},
+		"CoolMathGames": {
+			"data": {}
+		}
+	}
+}
